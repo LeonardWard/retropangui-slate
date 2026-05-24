@@ -58,7 +58,7 @@
       <pos>0.225 0.033</pos>
       <origin>0 0.5</origin>
       <fontSize>0.025</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Bold.ttf</fontPath>
       <color>1A1E2DFF</color>
       <forceUppercase>1</forceUppercase>
       <zIndex>10</zIndex>
@@ -66,7 +66,7 @@
 
     <!-- 콘솔 아트 이미지 -->
     <image name="console-art" extra="true">
-      <path>./_assets/consoles/${system.theme}.png</path>
+      <path>../_assets/consoles/${system.theme}.png</path>
       <pos>0.81 0.44</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.27 0.30</maxSize>
@@ -112,7 +112,7 @@
       <pos>0.23 0.37</pos>
       <size>0.40 0.04</size>
       <fontSize>0.020</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>6B7A8EFF</color>
       <forceUppercase>0</forceUppercase>
       <zIndex>10</zIndex>
@@ -124,7 +124,7 @@
       <pos>0.23 0.43</pos>
       <size>0.38 0.16</size>
       <fontSize>0.018</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>6B7A8EFF</color>
       <lineSpacing>1.6</lineSpacing>
       <forceUppercase>0</forceUppercase>
@@ -137,7 +137,7 @@
       <pos>0.23 0.67</pos>
       <size>0.35 0.03</size>
       <fontSize>0.019</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>9CA8B7FF</color>
       <zIndex>10</zIndex>
     </text>

@@ -67,7 +67,7 @@
       <pos>0.105 0.19</pos>
       <size>0.19 0.03</size>
       <fontSize>0.016</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>9CA8B7FF</color>
       <alignment>center</alignment>
       <forceUppercase>0</forceUppercase>
@@ -80,7 +80,7 @@
       <pos>0.105 0.23</pos>
       <size>0.19 0.30</size>
       <fontSize>0.016</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>6B7A8EFF</color>
       <lineSpacing>1.5</lineSpacing>
       <forceUppercase>0</forceUppercase>
@@ -94,7 +94,7 @@
       <pos>0.105 0.78</pos>
       <size>0.19 0.05</size>
       <fontSize>0.017</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>9CA8B7FF</color>
       <alignment>center</alignment>
       <zIndex>10</zIndex>
@@ -109,7 +109,7 @@
       <selectedColor>4A8FE7FF</selectedColor>
       <selectorColor>E5EFFEEE</selectorColor>
       <selectorHeight>0.042</selectorHeight>
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <fontSize>0.020</fontSize>
       <alignment>left</alignment>
       <horizontalMargin>0.02</horizontalMargin>
@@ -131,14 +131,14 @@
       <pos>0.62 0.072</pos>
       <size>0.37 0.035</size>
       <fontSize>0.022</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Bold.ttf</fontPath>
       <color>1A1E2DFF</color>
       <zIndex>10</zIndex>
     </text>
 
     <!-- 메타데이터 레이블 공통 스타일 -->
     <text name="md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_players, md_lbl_releasedate, md_lbl_genre">
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <fontSize>0.016</fontSize>
       <color>9CA8B7FF</color>
       <forceUppercase>0</forceUppercase>
@@ -168,7 +168,7 @@
 
     <!-- 개발사 -->
     <text name="md_developer">
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <pos>0.695 0.770</pos>
       <size>0.28 0.025</size>
       <fontSize>0.016</fontSize>
@@ -184,7 +184,7 @@
 
     <!-- 퍼블리셔 -->
     <text name="md_publisher">
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <pos>0.695 0.795</pos>
       <size>0.28 0.025</size>
       <fontSize>0.016</fontSize>
@@ -200,7 +200,7 @@
 
     <!-- 플레이어 수 -->
     <text name="md_players">
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <pos>0.695 0.820</pos>
       <size>0.10 0.025</size>
       <fontSize>0.016</fontSize>
@@ -216,7 +216,7 @@
 
     <!-- 출시일 -->
     <datetime name="md_releasedate">
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <pos>0.695 0.845</pos>
       <size>0.10 0.025</size>
       <fontSize>0.016</fontSize>
@@ -233,7 +233,7 @@
 
     <!-- 장르 -->
     <text name="md_genre">
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <pos>0.695 0.870</pos>
       <size>0.20 0.025</size>
       <fontSize>0.016</fontSize>
@@ -246,7 +246,7 @@
       <pos>0.615 0.600</pos>
       <size>0.365 0.12</size>
       <fontSize>0.017</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>6B7A8EFF</color>
       <lineSpacing>1.5</lineSpacing>
       <zIndex>10</zIndex>
