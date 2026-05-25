@@ -486,7 +486,7 @@
     <image name="carousel-line-top" extra="true">
       <path>./_assets/carousel-deco-top.svg</path>
       <size>0.122 0.012</size>
-      <pos>0.061 0.356</pos>
+      <pos>0.061 0.442</pos>
       <zIndex>25</zIndex>
     </image>
 
@@ -494,7 +494,7 @@
     <image name="carousel-line-bottom" extra="true">
       <path>./_assets/carousel-deco-bottom.svg</path>
       <size>0.122 0.012</size>
-      <pos>0.061 0.698</pos>
+      <pos>0.061 0.613</pos>
       <zIndex>25</zIndex>
     </image>
 
@@ -508,7 +508,7 @@
       <colorEnd>00000000</colorEnd>
       <logoSize>0.1156 0.065</logoSize>
       <logoScale>1.586</logoScale>
-      <maxLogoCount>5</maxLogoCount>
+      <maxLogoCount>4</maxLogoCount>
       <zIndex>20</zIndex>
     </carousel>
 
