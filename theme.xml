@@ -482,21 +482,19 @@
   <feature supported="carousel">
   <view name="system">
 
-    <!-- 선택 항목 상단 하이라이트 선 -->
+    <!-- 선택 항목 상단 곡선 데코 (위로 볼록) -->
     <image name="carousel-line-top" extra="true">
-      <path>./_assets/white.png</path>
-      <color>FFFFFFFF</color>
-      <size>0.183 0.002</size>
-      <pos>0.030 0.469</pos>
+      <path>./_assets/carousel-deco-top.svg</path>
+      <size>0.122 0.012</size>
+      <pos>0.061 0.356</pos>
       <zIndex>25</zIndex>
     </image>
 
-    <!-- 선택 항목 하단 하이라이트 선 -->
+    <!-- 선택 항목 하단 곡선 데코 (아래로 볼록) -->
     <image name="carousel-line-bottom" extra="true">
-      <path>./_assets/white.png</path>
-      <color>FFFFFFFF</color>
-      <size>0.183 0.002</size>
-      <pos>0.030 0.583</pos>
+      <path>./_assets/carousel-deco-bottom.svg</path>
+      <size>0.122 0.012</size>
+      <pos>0.061 0.698</pos>
       <zIndex>25</zIndex>
     </image>
 
