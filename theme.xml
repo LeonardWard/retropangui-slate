@@ -303,7 +303,7 @@
 
     <!-- 도움말 (하단 영역 세로 중앙) -->
     <helpsystem name="help">
-      <pos>0.19 0.964</pos>
+      <pos>0.19 0.950</pos>
       <fontSize>0.017</fontSize>
       <textColor>9CA8B7FF</textColor>
       <iconColor>4A8FE7FF</iconColor>
@@ -470,7 +470,7 @@
 
     <!-- 도움말 (하단 영역 세로 중앙) -->
     <helpsystem name="help">
-      <pos>0.19 0.964</pos>
+      <pos>0.19 0.950</pos>
       <fontSize>0.018</fontSize>
       <textColor>9CA8B7FF</textColor>
       <iconColor>4A8FE7FF</iconColor>
