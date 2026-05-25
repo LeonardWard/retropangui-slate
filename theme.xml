@@ -441,14 +441,14 @@
     <!-- 세로형 캐러셀 (좌측 사이드바 전체) -->
     <carousel name="systemcarousel">
       <type>vertical</type>
-      <pos>0.09 0.555</pos>
+      <pos>0.09 0.515</pos>
       <origin>0.5 0.5</origin>
-      <size>0.18 0.79</size>
+      <size>0.18 0.88</size>
       <color>00000000</color>
       <colorEnd>00000000</colorEnd>
       <logoSize>0.165 0.048</logoSize>
       <logoScale>1.12</logoScale>
-      <maxLogoCount>10</maxLogoCount>
+      <maxLogoCount>7</maxLogoCount>
       <zIndex>20</zIndex>
     </carousel>
 
