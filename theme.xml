@@ -32,12 +32,12 @@
       <zIndex>6</zIndex>
     </image>
 
-    <!-- 앱 로고 (헤더 좌측) -->
+    <!-- 앱 로고 (사이드바 상단, 흰색) -->
     <image name="appname-logo" extra="true">
       <path>./_assets/logo-header.svg</path>
-      <origin>0 0.5</origin>
-      <pos>0.195 0.033</pos>
-      <maxSize>0.20 0.038</maxSize>
+      <origin>0.5 0.5</origin>
+      <pos>0.09 0.033</pos>
+      <maxSize>0.155 0.038</maxSize>
       <zIndex>10</zIndex>
     </image>
 
@@ -370,12 +370,12 @@
       <zIndex>7</zIndex>
     </image>
 
-    <!-- 앱 로고 (헤더 좌측) -->
+    <!-- 앱 로고 (사이드바 상단, 흰색) -->
     <image name="appname-logo" extra="true">
       <path>./_assets/logo-header.svg</path>
-      <origin>0 0.5</origin>
-      <pos>0.195 0.033</pos>
-      <maxSize>0.20 0.038</maxSize>
+      <origin>0.5 0.5</origin>
+      <pos>0.09 0.033</pos>
+      <maxSize>0.155 0.038</maxSize>
       <zIndex>10</zIndex>
     </image>
 
