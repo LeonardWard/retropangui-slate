@@ -90,8 +90,8 @@
     <image name="logo">
       <path>./_assets/logos/${system.theme}.svg</path>
       <origin>0.5 0.5</origin>
-      <pos>0.131 0.160</pos>
-      <maxSize>0.176 0.070</maxSize>
+      <pos>0.122 0.160</pos>
+      <maxSize>0.157 0.070</maxSize>
       <color>FFFFFFFF</color>
       <zIndex>15</zIndex>
     </image>
@@ -485,13 +485,13 @@
     <!-- 세로형 캐러셀 (헤더~풋터 사이) -->
     <carousel name="systemcarousel">
       <type>vertical</type>
-      <pos>0.131 0.527</pos>
+      <pos>0.122 0.527</pos>
       <origin>0.5 0.5</origin>
       <size>0.243 0.760</size>
       <color>00000000</color>
       <colorEnd>00000000</colorEnd>
-      <logoSize>0.176 0.090</logoSize>
-      <logoScale>1.10</logoScale>
+      <logoSize>0.157 0.090</logoSize>
+      <logoScale>1.50</logoScale>
       <maxLogoCount>5</maxLogoCount>
       <zIndex>20</zIndex>
     </carousel>
