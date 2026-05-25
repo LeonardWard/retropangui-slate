@@ -446,9 +446,9 @@
       <size>0.18 0.88</size>
       <color>00000000</color>
       <colorEnd>00000000</colorEnd>
-      <logoSize>0.155 0.090</logoSize>
-      <logoScale>1.12</logoScale>
-      <maxLogoCount>7</maxLogoCount>
+      <logoSize>0.130 0.090</logoSize>
+      <logoScale>1.10</logoScale>
+      <maxLogoCount>5</maxLogoCount>
       <zIndex>20</zIndex>
     </carousel>
 
