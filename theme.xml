@@ -482,6 +482,24 @@
   <feature supported="carousel">
   <view name="system">
 
+    <!-- 선택 항목 상단 하이라이트 선 -->
+    <image name="carousel-line-top" extra="true">
+      <path>./_assets/white.png</path>
+      <color>FFFFFFFF</color>
+      <size>0.183 0.002</size>
+      <pos>0.030 0.469</pos>
+      <zIndex>25</zIndex>
+    </image>
+
+    <!-- 선택 항목 하단 하이라이트 선 -->
+    <image name="carousel-line-bottom" extra="true">
+      <path>./_assets/white.png</path>
+      <color>FFFFFFFF</color>
+      <size>0.183 0.002</size>
+      <pos>0.030 0.583</pos>
+      <zIndex>25</zIndex>
+    </image>
+
     <!-- 세로형 캐러셀 (헤더~풋터 사이) -->
     <carousel name="systemcarousel">
       <type>vertical</type>
