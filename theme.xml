@@ -91,7 +91,7 @@
       <path>./_assets/logos/${system.theme}.svg</path>
       <origin>0.5 0.5</origin>
       <pos>0.1215 0.160</pos>
-      <maxSize>0.157 0.090</maxSize>
+      <maxSize>0.183 0.090</maxSize>
       <color>FFFFFFFF</color>
       <zIndex>15</zIndex>
     </image>
@@ -490,8 +490,8 @@
       <size>0.243 0.760</size>
       <color>00000000</color>
       <colorEnd>00000000</colorEnd>
-      <logoSize>0.105 0.060</logoSize>
-      <logoScale>1.50</logoScale>
+      <logoSize>0.1156 0.065</logoSize>
+      <logoScale>1.586</logoScale>
       <maxLogoCount>5</maxLogoCount>
       <zIndex>20</zIndex>
     </carousel>
