@@ -27,8 +27,17 @@
     <image name="header-bar" extra="true">
       <path>./_assets/white.png</path>
       <color>FFFFFFFF</color>
-      <size>0.82 0.065</size>
+      <size>0.82 0.072</size>
       <pos>0.18 0</pos>
+      <zIndex>6</zIndex>
+    </image>
+
+    <!-- 하단 풋터바 (화이트) -->
+    <image name="footer-bar" extra="true">
+      <path>./_assets/white.png</path>
+      <color>FFFFFFFF</color>
+      <size>0.82 0.072</size>
+      <pos>0.18 0.928</pos>
       <zIndex>6</zIndex>
     </image>
 
@@ -36,17 +45,26 @@
     <image name="appname-logo" extra="true">
       <path>./_assets/logo-header.svg</path>
       <origin>0.5 0.5</origin>
-      <pos>0.09 0.033</pos>
-      <maxSize>0.155 0.038</maxSize>
+      <pos>0.09 0.036</pos>
+      <maxSize>0.155 0.040</maxSize>
       <zIndex>10</zIndex>
     </image>
 
-    <!-- 헤더 하단 구분선 (메인 영역만) -->
+    <!-- 헤더 하단 구분선 -->
     <image name="header-divider" extra="true">
       <path>./_assets/white.png</path>
       <color>D5DAE6FF</color>
       <size>0.82 0.002</size>
-      <pos>0.18 0.065</pos>
+      <pos>0.18 0.072</pos>
+      <zIndex>7</zIndex>
+    </image>
+
+    <!-- 하단 구분선 -->
+    <image name="footer-divider" extra="true">
+      <path>./_assets/white.png</path>
+      <color>D5DAE6FF</color>
+      <size>0.82 0.002</size>
+      <pos>0.18 0.928</pos>
       <zIndex>7</zIndex>
     </image>
 
@@ -54,8 +72,8 @@
     <image name="sidebar-divider" extra="true">
       <path>./_assets/white.png</path>
       <color>D5DAE6FF</color>
-      <size>0.001 0.935</size>
-      <pos>0.18 0.065</pos>
+      <size>0.001 0.856</size>
+      <pos>0.18 0.072</pos>
       <zIndex>7</zIndex>
     </image>
 
@@ -63,8 +81,8 @@
     <image name="list-detail-divider" extra="true">
       <path>./_assets/white.png</path>
       <color>D5DAE6FF</color>
-      <size>0.001 0.935</size>
-      <pos>0.53 0.065</pos>
+      <size>0.001 0.856</size>
+      <pos>0.53 0.072</pos>
       <zIndex>7</zIndex>
     </image>
 
@@ -119,8 +137,8 @@
 
     <!-- ── 게임 목록 ── -->
     <textlist name="gamelist">
-      <pos>0.195 0.080</pos>
-      <size>0.325 0.852</size>
+      <pos>0.195 0.082</pos>
+      <size>0.325 0.838</size>
       <primaryColor>4A5568FF</primaryColor>
       <secondaryColor>718096FF</secondaryColor>
       <selectedColor>2D5BE3FF</selectedColor>
@@ -139,8 +157,8 @@
 
     <!-- 게임 이름 (헤더 영역) -->
     <text name="md_name">
-      <pos>0.545 0.074</pos>
-      <size>0.44 0.035</size>
+      <pos>0.545 0.076</pos>
+      <size>0.44 0.036</size>
       <fontSize>0.022</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
       <color>1A1E2DFF</color>
@@ -283,9 +301,9 @@
       <size>0 0</size>
     </image>
 
-    <!-- 도움말 -->
+    <!-- 도움말 (하단 영역 세로 중앙) -->
     <helpsystem name="help">
-      <pos>0.19 0.975</pos>
+      <pos>0.19 0.964</pos>
       <fontSize>0.017</fontSize>
       <textColor>9CA8B7FF</textColor>
       <iconColor>4A8FE7FF</iconColor>
@@ -313,7 +331,6 @@
 
   <!-- ===== SYSTEM VIEW ===== -->
 
-  <!-- 캐러셀 미지원 환경에서도 표시되는 기본 요소 -->
   <view name="system">
 
     <!-- 전체 배경 -->
@@ -338,8 +355,17 @@
     <image name="sidebar-header" extra="true">
       <path>./_assets/white.png</path>
       <color>151928FF</color>
-      <size>0.18 0.065</size>
+      <size>0.18 0.072</size>
       <pos>0 0</pos>
+      <zIndex>6</zIndex>
+    </image>
+
+    <!-- 사이드바 하단 풋터 (더 어두운 색) -->
+    <image name="sidebar-footer" extra="true">
+      <path>./_assets/white.png</path>
+      <color>151928FF</color>
+      <size>0.18 0.072</size>
+      <pos>0 0.928</pos>
       <zIndex>6</zIndex>
     </image>
 
@@ -347,17 +373,35 @@
     <image name="main-header" extra="true">
       <path>./_assets/white.png</path>
       <color>FFFFFFEF</color>
-      <size>0.82 0.065</size>
+      <size>0.82 0.072</size>
       <pos>0.18 0</pos>
       <zIndex>6</zIndex>
     </image>
 
-    <!-- 헤더 하단 구분선 (메인 영역만) -->
+    <!-- 메인 풋터바 (화이트) -->
+    <image name="main-footer" extra="true">
+      <path>./_assets/white.png</path>
+      <color>FFFFFFEF</color>
+      <size>0.82 0.072</size>
+      <pos>0.18 0.928</pos>
+      <zIndex>6</zIndex>
+    </image>
+
+    <!-- 헤더 하단 구분선 -->
     <image name="header-divider" extra="true">
       <path>./_assets/white.png</path>
       <color>D5DAE6FF</color>
       <size>0.82 0.002</size>
-      <pos>0.18 0.065</pos>
+      <pos>0.18 0.072</pos>
+      <zIndex>7</zIndex>
+    </image>
+
+    <!-- 하단 구분선 -->
+    <image name="footer-divider" extra="true">
+      <path>./_assets/white.png</path>
+      <color>D5DAE6FF</color>
+      <size>0.82 0.002</size>
+      <pos>0.18 0.928</pos>
       <zIndex>7</zIndex>
     </image>
 
@@ -365,8 +409,8 @@
     <image name="sidebar-divider" extra="true">
       <path>./_assets/white.png</path>
       <color>D5DAE6FF</color>
-      <size>0.001 0.935</size>
-      <pos>0.18 0.065</pos>
+      <size>0.001 0.856</size>
+      <pos>0.18 0.072</pos>
       <zIndex>7</zIndex>
     </image>
 
@@ -374,8 +418,8 @@
     <image name="appname-logo" extra="true">
       <path>./_assets/logo-header.svg</path>
       <origin>0.5 0.5</origin>
-      <pos>0.09 0.033</pos>
-      <maxSize>0.155 0.038</maxSize>
+      <pos>0.09 0.036</pos>
+      <maxSize>0.155 0.040</maxSize>
       <zIndex>10</zIndex>
     </image>
 
@@ -424,9 +468,9 @@
       <zIndex>10</zIndex>
     </text>
 
-    <!-- 도움말 -->
+    <!-- 도움말 (하단 영역 세로 중앙) -->
     <helpsystem name="help">
-      <pos>0.19 0.975</pos>
+      <pos>0.19 0.964</pos>
       <fontSize>0.018</fontSize>
       <textColor>9CA8B7FF</textColor>
       <iconColor>4A8FE7FF</iconColor>
@@ -438,12 +482,12 @@
   <feature supported="carousel">
   <view name="system">
 
-    <!-- 세로형 캐러셀 (좌측 사이드바 전체) -->
+    <!-- 세로형 캐러셀 (헤더~풋터 사이) -->
     <carousel name="systemcarousel">
       <type>vertical</type>
-      <pos>0.09 0.515</pos>
+      <pos>0.09 0.500</pos>
       <origin>0.5 0.5</origin>
-      <size>0.18 0.88</size>
+      <size>0.18 0.836</size>
       <color>00000000</color>
       <colorEnd>00000000</colorEnd>
       <logoSize>0.130 0.090</logoSize>
