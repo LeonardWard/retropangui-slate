@@ -32,12 +32,21 @@
       <zIndex>6</zIndex>
     </image>
 
-    <!-- 헤더 구분선 -->
+    <!-- 앱 로고 (헤더 좌측) -->
+    <image name="appname-logo" extra="true">
+      <path>./_assets/logo-header.svg</path>
+      <origin>0 0.5</origin>
+      <pos>0.195 0.033</pos>
+      <maxSize>0.20 0.038</maxSize>
+      <zIndex>10</zIndex>
+    </image>
+
+    <!-- 헤더 하단 구분선 (메인 영역만) -->
     <image name="header-divider" extra="true">
       <path>./_assets/white.png</path>
       <color>D5DAE6FF</color>
-      <size>1.0 0.002</size>
-      <pos>0 0.063</pos>
+      <size>0.82 0.002</size>
+      <pos>0.18 0.065</pos>
       <zIndex>7</zIndex>
     </image>
 
@@ -45,8 +54,8 @@
     <image name="sidebar-divider" extra="true">
       <path>./_assets/white.png</path>
       <color>D5DAE6FF</color>
-      <size>0.001 0.937</size>
-      <pos>0.18 0.063</pos>
+      <size>0.001 0.935</size>
+      <pos>0.18 0.065</pos>
       <zIndex>7</zIndex>
     </image>
 
@@ -54,8 +63,8 @@
     <image name="list-detail-divider" extra="true">
       <path>./_assets/white.png</path>
       <color>D5DAE6FF</color>
-      <size>0.001 0.937</size>
-      <pos>0.53 0.063</pos>
+      <size>0.001 0.935</size>
+      <pos>0.53 0.065</pos>
       <zIndex>7</zIndex>
     </image>
 
@@ -343,12 +352,12 @@
       <zIndex>6</zIndex>
     </image>
 
-    <!-- 헤더 하단 구분선 -->
+    <!-- 헤더 하단 구분선 (메인 영역만) -->
     <image name="header-divider" extra="true">
       <path>./_assets/white.png</path>
       <color>D5DAE6FF</color>
-      <size>1.0 0.002</size>
-      <pos>0 0.063</pos>
+      <size>0.82 0.002</size>
+      <pos>0.18 0.065</pos>
       <zIndex>7</zIndex>
     </image>
 
@@ -356,22 +365,19 @@
     <image name="sidebar-divider" extra="true">
       <path>./_assets/white.png</path>
       <color>D5DAE6FF</color>
-      <size>0.001 0.937</size>
-      <pos>0.18 0.063</pos>
+      <size>0.001 0.935</size>
+      <pos>0.18 0.065</pos>
       <zIndex>7</zIndex>
     </image>
 
-    <!-- 앱 이름 텍스트 -->
-    <text name="appname" extra="true">
-      <text>RETROPANGUI-C5</text>
-      <pos>0.205 0.033</pos>
+    <!-- 앱 로고 (헤더 좌측) -->
+    <image name="appname-logo" extra="true">
+      <path>./_assets/logo-header.svg</path>
       <origin>0 0.5</origin>
-      <fontSize>0.024</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
-      <color>1A1E2DFF</color>
-      <forceUppercase>1</forceUppercase>
+      <pos>0.195 0.033</pos>
+      <maxSize>0.20 0.038</maxSize>
       <zIndex>10</zIndex>
-    </text>
+    </image>
 
     <!-- 콘솔 아트 이미지 (우측) -->
     <image name="console-art" extra="true">
