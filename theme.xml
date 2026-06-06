@@ -8,16 +8,16 @@
     <!-- 전체 배경 -->
     <image name="background" extra="true">
       <path>./_assets/white.png</path>
-      <color>EEF1F7FF</color>
+      <color>F2F3F4FF</color>
       <size>1 1</size>
       <pos>0 0</pos>
       <zIndex>0</zIndex>
     </image>
 
-    <!-- 왼쪽 다크 사이드바 -->
+    <!-- 왼쪽 사이드바 -->
     <image name="sidebar" extra="true">
       <path>./_assets/white.png</path>
-      <color>1A1E2DFF</color>
+      <color>E8EAEEFF</color>
       <size>0.243 1.0</size>
       <pos>0 0</pos>
       <zIndex>5</zIndex>
@@ -26,7 +26,7 @@
     <!-- 상단 헤더바 (화이트) -->
     <image name="header-bar" extra="true">
       <path>./_assets/white.png</path>
-      <color>FFFFFFFF</color>
+      <color>F2F3F4FF</color>
       <size>0.757 0.137</size>
       <pos>0.243 0</pos>
       <zIndex>6</zIndex>
@@ -35,7 +35,7 @@
     <!-- 하단 풋터바 (화이트) -->
     <image name="footer-bar" extra="true">
       <path>./_assets/white.png</path>
-      <color>FFFFFFFF</color>
+      <color>F2F3F4FF</color>
       <size>0.757 0.083</size>
       <pos>0.243 0.917</pos>
       <zIndex>6</zIndex>
@@ -45,15 +45,15 @@
     <image name="appname-logo" extra="true">
       <path>./_assets/logo-header.svg</path>
       <origin>0.5 0.5</origin>
-      <pos>0.1215 0.0685</pos>
-      <maxSize>0.210 0.055</maxSize>
+      <pos>0.1279 0.0685</pos>
+      <maxSize>0.230 0.070</maxSize>
       <zIndex>10</zIndex>
     </image>
 
     <!-- 헤더 하단 구분선 -->
     <image name="header-divider" extra="true">
       <path>./_assets/white.png</path>
-      <color>D5DAE6FF</color>
+      <color>00000000</color>
       <size>0.757 0.002</size>
       <pos>0.243 0.137</pos>
       <zIndex>7</zIndex>
@@ -62,7 +62,7 @@
     <!-- 하단 구분선 -->
     <image name="footer-divider" extra="true">
       <path>./_assets/white.png</path>
-      <color>D5DAE6FF</color>
+      <color>00000000</color>
       <size>0.757 0.002</size>
       <pos>0.243 0.917</pos>
       <zIndex>7</zIndex>
@@ -71,16 +71,28 @@
     <!-- 사이드바 세로 구분선 -->
     <image name="sidebar-divider" extra="true">
       <path>./_assets/white.png</path>
-      <color>D5DAE6FF</color>
+      <color>00000000</color>
       <size>0.001 0.780</size>
       <pos>0.243 0.137</pos>
       <zIndex>7</zIndex>
     </image>
 
+    <!-- 헤더: 시스템 풀네임 -->
+    <text name="systemfullname" extra="true">
+      <origin>0 0.5</origin>
+      <pos>0.260 0.0685</pos>
+      <size>0.500 0.060</size>
+      <fontSize>0.032</fontSize>
+      <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
+      <color>1A1E2DFF</color>
+      <forceUppercase>1</forceUppercase>
+      <zIndex>10</zIndex>
+    </text>
+
     <!-- 리스트-디테일 구분선 -->
     <image name="list-detail-divider" extra="true">
       <path>./_assets/white.png</path>
-      <color>D5DAE6FF</color>
+      <color>00000000</color>
       <size>0.001 0.780</size>
       <pos>0.566 0.137</pos>
       <zIndex>7</zIndex>
@@ -90,20 +102,20 @@
     <image name="logo">
       <path>./_assets/logos/${system.theme}.svg</path>
       <origin>0.5 0.5</origin>
-      <pos>0.1215 0.160</pos>
+      <pos>0.1215 0.200</pos>
       <maxSize>0.183 0.090</maxSize>
-      <color>FFFFFFFF</color>
+      <color>1C1F2CFF</color>
       <zIndex>15</zIndex>
     </image>
 
     <!-- 사이드바: 시스템 짧은 설명 -->
     <text name="shortdescription" extra="true">
       <origin>0.5 0.5</origin>
-      <pos>0.1215 0.235</pos>
+      <pos>0.1215 0.290</pos>
       <size>0.215 0.04</size>
-      <fontSize>0.014</fontSize>
+      <fontSize>0.016</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>9CA8B7FF</color>
+      <color>6B7A8EFF</color>
       <alignment>center</alignment>
       <forceUppercase>0</forceUppercase>
       <zIndex>10</zIndex>
@@ -112,11 +124,11 @@
     <!-- 사이드바: 시스템 긴 설명 -->
     <text name="longdescription" extra="true">
       <origin>0.5 0</origin>
-      <pos>0.1215 0.285</pos>
+      <pos>0.1215 0.335</pos>
       <size>0.215 0.250</size>
-      <fontSize>0.014</fontSize>
+      <fontSize>0.016</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>6B7A8EFF</color>
+      <color>4A5568FF</color>
       <lineSpacing>1.5</lineSpacing>
       <forceUppercase>0</forceUppercase>
       <alignment>center</alignment>
@@ -128,9 +140,9 @@
       <origin>0.5 0.5</origin>
       <pos>0.1215 0.801</pos>
       <size>0.215 0.06</size>
-      <fontSize>0.015</fontSize>
+      <fontSize>0.017</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>9CA8B7FF</color>
+      <color>6B7A8EFF</color>
       <alignment>center</alignment>
       <zIndex>10</zIndex>
     </text>
@@ -169,7 +181,7 @@
     <image name="md_image">
       <origin>0.5 0.5</origin>
       <pos>0.783 0.340</pos>
-      <maxSize>0.405 0.370</maxSize>
+      <maxSize>0.320 0.280</maxSize>
       <zIndex>10</zIndex>
     </image>
 
@@ -303,7 +315,7 @@
 
     <!-- 도움말 (하단 풋터 세로 중앙) -->
     <helpsystem name="help">
-      <pos>0.253 0.950</pos>
+      <pos>0.260 0.950</pos>
       <fontSize>0.017</fontSize>
       <textColor>9CA8B7FF</textColor>
       <iconColor>4A8FE7FF</iconColor>
@@ -315,10 +327,16 @@
   <feature supported="video">
   <view name="video">
 
+    <!-- video 뷰에서 md_image 숨김 (video 요소가 스냅샷 담당) -->
+    <image name="md_image">
+      <pos>1.5 1.5</pos>
+      <size>0 0</size>
+    </image>
+
     <video name="md_video">
       <pos>0.783 0.340</pos>
       <origin>0.5 0.5</origin>
-      <maxSize>0.405 0.370</maxSize>
+      <maxSize>0.320 0.280</maxSize>
       <delay>1.5</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
@@ -336,34 +354,33 @@
     <!-- 전체 배경 -->
     <image name="background" extra="true">
       <path>./_assets/white.png</path>
-      <color>EEF1F7FF</color>
+      <color>F2F3F4FF</color>
       <size>1 1</size>
       <pos>0 0</pos>
       <zIndex>0</zIndex>
     </image>
 
-    <!-- 왼쪽 다크 사이드바 -->
+    <!-- 왼쪽 사이드바 (하단 우측 모서리 라운드) -->
     <image name="sidebar" extra="true">
-      <path>./_assets/white.png</path>
-      <color>1A1E2DFF</color>
-      <size>0.243 1.0</size>
+      <path>./_assets/sidebar-rounded.svg</path>
+      <size>0.243 0.917</size>
       <pos>0 0</pos>
       <zIndex>5</zIndex>
     </image>
 
-    <!-- 사이드바 상단 헤더 (더 어두운 색) -->
+    <!-- 사이드바 상단 헤더 (로고 영역, 같은 색) -->
     <image name="sidebar-header" extra="true">
       <path>./_assets/white.png</path>
-      <color>151928FF</color>
+      <color>E8EAEEFF</color>
       <size>0.243 0.137</size>
       <pos>0 0</pos>
       <zIndex>6</zIndex>
     </image>
 
-    <!-- 사이드바 하단 풋터 (더 어두운 색) -->
+    <!-- 사이드바 하단 풋터 (흰색) -->
     <image name="sidebar-footer" extra="true">
       <path>./_assets/white.png</path>
-      <color>151928FF</color>
+      <color>F2F3F4FF</color>
       <size>0.243 0.083</size>
       <pos>0 0.917</pos>
       <zIndex>6</zIndex>
@@ -372,7 +389,7 @@
     <!-- 메인 헤더바 (화이트) -->
     <image name="main-header" extra="true">
       <path>./_assets/white.png</path>
-      <color>FFFFFFEF</color>
+      <color>F2F3F4FF</color>
       <size>0.757 0.137</size>
       <pos>0.243 0</pos>
       <zIndex>6</zIndex>
@@ -381,7 +398,7 @@
     <!-- 메인 풋터바 (화이트) -->
     <image name="main-footer" extra="true">
       <path>./_assets/white.png</path>
-      <color>FFFFFFEF</color>
+      <color>F2F3F4FF</color>
       <size>0.757 0.083</size>
       <pos>0.243 0.917</pos>
       <zIndex>6</zIndex>
@@ -390,7 +407,7 @@
     <!-- 헤더 하단 구분선 -->
     <image name="header-divider" extra="true">
       <path>./_assets/white.png</path>
-      <color>D5DAE6FF</color>
+      <color>00000000</color>
       <size>0.757 0.002</size>
       <pos>0.243 0.137</pos>
       <zIndex>7</zIndex>
@@ -399,7 +416,7 @@
     <!-- 하단 구분선 -->
     <image name="footer-divider" extra="true">
       <path>./_assets/white.png</path>
-      <color>D5DAE6FF</color>
+      <color>00000000</color>
       <size>0.757 0.002</size>
       <pos>0.243 0.917</pos>
       <zIndex>7</zIndex>
@@ -408,7 +425,7 @@
     <!-- 사이드바-메인 세로 구분선 -->
     <image name="sidebar-divider" extra="true">
       <path>./_assets/white.png</path>
-      <color>D5DAE6FF</color>
+      <color>00000000</color>
       <size>0.001 0.780</size>
       <pos>0.243 0.137</pos>
       <zIndex>7</zIndex>
@@ -418,37 +435,92 @@
     <image name="appname-logo" extra="true">
       <path>./_assets/logo-header.svg</path>
       <origin>0.5 0.5</origin>
-      <pos>0.1215 0.0685</pos>
-      <maxSize>0.210 0.055</maxSize>
+      <pos>0.1279 0.0685</pos>
+      <maxSize>0.230 0.070</maxSize>
       <zIndex>10</zIndex>
     </image>
 
-    <!-- 콘솔 아트 이미지 (우측) -->
-    <image name="console-art" extra="true">
-      <path>./_assets/consoles/${system.theme}.png</path>
+    <!-- 콘솔 영역 레이어 1: 시스템 스크린샷 (맨 아래) — 주석처리 -->
+    <!--
+    <image name="system-screenshot" extra="true">
+      <path>./_assets/screenshots/${system.theme}.png</path>
       <pos>0.806 0.472</pos>
       <origin>0.5 0.5</origin>
-      <maxSize>0.260 0.350</maxSize>
+      <maxSize>0.240 0.320</maxSize>
+      <zIndex>8</zIndex>
+    </image>
+    -->
+
+    <!-- 콘솔 영역 레이어 2: 파란 글로우 (스크린샷 위) — 주석처리 -->
+    <!--
+    <image name="console-glow" extra="true">
+      <path>./_assets/console-glow.svg</path>
+      <pos>0.806 0.472</pos>
+      <origin>0.5 0.5</origin>
+      <size>0.380 0.500</size>
+      <zIndex>9</zIndex>
+    </image>
+    -->
+
+    <!-- 콘솔 영역 레이어 3: 콘솔 아트 이미지 (2x 크기) -->
+    <image name="console-art" extra="true">
+      <path>./_assets/consoles/${system.theme}-console.png</path>
+      <pos>0.806 0.530</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.520 0.700</maxSize>
       <zIndex>10</zIndex>
     </image>
 
-    <!-- 시스템 짧은 설명 (부제목) -->
+    <!-- ═══ 메인 콘텐츠 레이아웃 (x_start=532px=0.277) ═══ -->
+
+    <!-- 1. 시스템 로고 (대형 타이틀) — extra로 충돌 방지 -->
+    <image name="system-logo-title" extra="true">
+      <path>./_assets/logos/${system.theme}.svg</path>
+      <origin>0 0</origin>
+      <pos>0.277 0.175</pos>
+      <maxSize>0.382 0.127</maxSize>
+      <color>1A1E2DFF</color>
+      <zIndex>10</zIndex>
+    </image>
+
+    <!-- 2. 시스템 풀네임 부제목 → systemfullname 필드 (각 시스템 theme.xml에서 채움) -->
+    <text name="systemfullname" extra="true">
+      <origin>0 0</origin>
+      <pos>0.277 0.320</pos>
+      <size>0.420 0.040</size>
+      <fontSize>0.032</fontSize>
+      <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
+      <color>2D5BE3FF</color>
+      <forceUppercase>1</forceUppercase>
+      <zIndex>10</zIndex>
+    </text>
+
+    <!-- 3. 구분선 1 -->
+    <image name="content-divider-1" extra="true">
+      <path>./_assets/white.png</path>
+      <color>2D5BE3FF</color>
+      <size>0.060 0.003</size>
+      <pos>0.277 0.373</pos>
+      <zIndex>10</zIndex>
+    </image>
+
+    <!-- 4. 짧은 정보 (연도·제조사·플랫폼) → shortdescription 필드 -->
     <text name="shortdescription" extra="true">
-      <origin>0 0.5</origin>
-      <pos>0.275 0.381</pos>
-      <size>0.406 0.04</size>
-      <fontSize>0.019</fontSize>
+      <origin>0 0</origin>
+      <pos>0.277 0.402</pos>
+      <size>0.420 0.030</size>
+      <fontSize>0.017</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>6B7A8EFF</color>
+      <color>9CA8B7FF</color>
       <forceUppercase>0</forceUppercase>
       <zIndex>10</zIndex>
     </text>
 
-    <!-- 시스템 긴 설명 -->
+    <!-- 5. 긴 설명 → longdescription 필드 -->
     <text name="longdescription" extra="true">
       <origin>0 0</origin>
-      <pos>0.275 0.431</pos>
-      <size>0.369 0.187</size>
+      <pos>0.277 0.440</pos>
+      <size>0.420 0.115</size>
       <fontSize>0.017</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>6B7A8EFF</color>
@@ -457,20 +529,111 @@
       <zIndex>10</zIndex>
     </text>
 
-    <!-- 시스템 정보 (게임 수 등) -->
+    <!-- 5. 스탯 행: 컨트롤러 아이콘 배경 원 (중심 0.289, 오른쪽 끝 0.3025) -->
+    <image name="icon-controller-bg" extra="true">
+      <path>./_assets/circle-white.svg</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.289 0.800</pos>
+      <size>0.027 0.048</size>
+      <zIndex>9</zIndex>
+    </image>
+
+    <!-- 5. 스탯 행: 컨트롤러 아이콘 (2행 세로 중앙) -->
+    <image name="icon-controller" extra="true">
+      <path>./_assets/icon-controller.svg</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.289 0.800</pos>
+      <maxSize>0.024 0.024</maxSize>
+      <zIndex>10</zIndex>
+    </image>
+
+    <!-- 6. 스탯 행: 게임 수 — 상단 행 (크게, 볼드) -->
     <text name="systemInfo">
       <origin>0 0.5</origin>
-      <pos>0.275 0.691</pos>
-      <size>0.38 0.03</size>
+      <pos>0.260 0.800</pos>
+      <size>0.150 0.030</size>
       <fontSize>0.018</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>9CA8B7FF</color>
+      <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
+      <color>1A1E2DFF</color>
       <zIndex>10</zIndex>
     </text>
 
+    <!-- 7. 스탯 행: 구분자 (2행 높이) -->
+    <image name="stat-divider" extra="true">
+      <path>./_assets/white.png</path>
+      <color>D5DAE6FF</color>
+      <size>0.001 0.050</size>
+      <pos>0.369 0.775</pos>
+      <zIndex>10</zIndex>
+    </image>
+
+    <!-- 8. 스탯 행: 별 아이콘 배경 원 (그룹 좌측 751px=0.391 기준) -->
+    <image name="icon-star-bg" extra="true">
+      <path>./_assets/circle-white.svg</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.404 0.800</pos>
+      <size>0.027 0.048</size>
+      <zIndex>9</zIndex>
+    </image>
+
+    <!-- 8. 스탯 행: 별 아이콘 (세로 중앙) -->
+    <image name="icon-star" extra="true">
+      <path>./_assets/icon-star.svg</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.404 0.800</pos>
+      <maxSize>0.036 0.036</maxSize>
+      <zIndex>10</zIndex>
+    </image>
+
+    <!-- 9. 스탯 행: 즐겨찾기 레이블 (세로 중앙) -->
+    <text name="favorites-label" extra="true">
+      <origin>0 0.5</origin>
+      <pos>0.433 0.800</pos>
+      <size>0.110 0.022</size>
+      <fontSize>0.018</fontSize>
+      <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
+      <color>1A1E2DFF</color>
+      <zIndex>10</zIndex>
+      <text>즐겨찾기</text>
+    </text>
+
+    <!-- 10~13. RECENTLY PLAYED 이미테이션 (숨김 — 나중에 위치 활성화) -->
+    <text name="rp-header" extra="true">
+      <pos>1.5 1.5</pos><size>0 0</size>
+      <text>RECENTLY PLAYED</text>
+    </text>
+    <image name="content-divider-2" extra="true">
+      <path>./_assets/white.png</path>
+      <pos>1.5 1.5</pos><size>0 0</size>
+    </image>
+    <image name="rp-card-1" extra="true">
+      <path>./_assets/rp-card.svg</path>
+      <pos>1.5 1.5</pos><size>0 0</size>
+    </image>
+    <image name="rp-card-2" extra="true">
+      <path>./_assets/rp-card.svg</path>
+      <pos>1.5 1.5</pos><size>0 0</size>
+    </image>
+    <image name="rp-card-3" extra="true">
+      <path>./_assets/rp-card.svg</path>
+      <pos>1.5 1.5</pos><size>0 0</size>
+    </image>
+    <image name="rp-card-4" extra="true">
+      <path>./_assets/rp-card.svg</path>
+      <pos>1.5 1.5</pos><size>0 0</size>
+    </image>
+    <image name="rp-card-5" extra="true">
+      <path>./_assets/rp-card.svg</path>
+      <pos>1.5 1.5</pos><size>0 0</size>
+    </image>
+    <image name="rp-dots" extra="true">
+      <path>./_assets/rp-dots.svg</path>
+      <pos>1.5 1.5</pos><size>0 0</size>
+    </image>
+
     <!-- 도움말 (하단 풋터 세로 중앙) -->
     <helpsystem name="help">
-      <pos>0.253 0.950</pos>
+      <pos>0.030 0.950</pos>
       <fontSize>0.018</fontSize>
       <textColor>9CA8B7FF</textColor>
       <iconColor>4A8FE7FF</iconColor>
@@ -482,19 +645,11 @@
   <feature supported="carousel">
   <view name="system">
 
-    <!-- 선택 항목 상단 곡선 데코 (위로 볼록) -->
-    <image name="carousel-line-top" extra="true">
-      <path>./_assets/carousel-deco-top.svg</path>
-      <size>0.122 0.012</size>
-      <pos>0.061 0.442</pos>
-      <zIndex>25</zIndex>
-    </image>
-
-    <!-- 선택 항목 하단 곡선 데코 (아래로 볼록) -->
-    <image name="carousel-line-bottom" extra="true">
-      <path>./_assets/carousel-deco-bottom.svg</path>
-      <size>0.122 0.012</size>
-      <pos>0.061 0.613</pos>
+    <!-- 선택 항목 하단 글로우 디스크 -->
+    <image name="carousel-disc-glow" extra="true">
+      <path>./_assets/carousel-deco-disc.svg</path>
+      <size>0.092 0.007</size>
+      <pos>0.0755 0.590</pos>
       <zIndex>25</zIndex>
     </image>
 
@@ -503,12 +658,12 @@
       <type>vertical</type>
       <pos>0.1215 0.527</pos>
       <origin>0.5 0.5</origin>
-      <size>0.243 0.760</size>
+      <size>0.243 0.700</size>
       <color>00000000</color>
       <colorEnd>00000000</colorEnd>
       <logoSize>0.1156 0.065</logoSize>
       <logoScale>1.586</logoScale>
-      <maxLogoCount>4</maxLogoCount>
+      <maxLogoCount>5</maxLogoCount>
       <zIndex>20</zIndex>
     </carousel>
 
@@ -518,6 +673,7 @@
       <origin>0 0.5</origin>
       <pos>0.275 0.244</pos>
       <maxSize>0.332 0.110</maxSize>
+      <color>1C1F2CFF</color>
       <zIndex>15</zIndex>
     </image>
 

@@ -3,6 +3,9 @@
   <formatVersion>4</formatVersion>
   <include>./../theme.xml</include>
   <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>SONY PLAYSTATION 2</text>
+    </text>
     <text name="shortdescription" extra="true">
       <text>2000 · SONY · 128-BIT</text>
     </text>

@@ -3,6 +3,9 @@
   <formatVersion>4</formatVersion>
   <include>./../theme.xml</include>
   <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>NINTENDO 64</text>
+    </text>
     <text name="shortdescription" extra="true">
       <text>1996 · NINTENDO · 64-BIT</text>
     </text>

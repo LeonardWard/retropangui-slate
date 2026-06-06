@@ -3,6 +3,9 @@
   <formatVersion>4</formatVersion>
   <include>./../theme.xml</include>
   <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>SEGA SATURN</text>
+    </text>
     <text name="shortdescription" extra="true">
       <text>1994 · SEGA · 32-BIT</text>
     </text>

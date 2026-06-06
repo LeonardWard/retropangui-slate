@@ -3,6 +3,9 @@
   <formatVersion>4</formatVersion>
   <include>./../theme.xml</include>
   <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>SEGA MEGA DRIVE</text>
+    </text>
     <text name="shortdescription" extra="true">
       <text>1988 · SEGA · 16-BIT</text>
     </text>

@@ -3,6 +3,9 @@
   <formatVersion>4</formatVersion>
   <include>./../theme.xml</include>
   <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>SNK NEO GEO</text>
+    </text>
     <text name="shortdescription" extra="true">
       <text>1990 · SNK · ARCADE</text>
     </text>
