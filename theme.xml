@@ -374,6 +374,39 @@
       <zIndex>0</zIndex>
     </image>
 
+    <!-- 시스템 실루엣 이미지 -->
+    <image name="system-silhouette" extra="true">
+      <path>./_assets/screenshots/${system.theme}.png</path>
+      <origin>1 0</origin>
+      <pos>1920 0</pos>
+      <maxSize>550 700</maxSize>
+      <zIndex>7</zIndex>
+    </image>
+
+    <!-- 실루엣 하단 페이드 -->
+    <image name="silhouette-fade" extra="true">
+      <path>./_assets/bg-fade.png</path>
+      <pos>1183 460</pos>
+      <size>737 300</size>
+      <zIndex>7</zIndex>
+    </image>
+
+    <!-- 실루엣 클립 마스크 (사다리꼴 바깥 가림) -->
+    <image name="silhouette-clip" extra="true">
+      <path>./_assets/bg-clip-mask.png</path>
+      <pos>1183 0</pos>
+      <size>737 760</size>
+      <zIndex>7</zIndex>
+    </image>
+
+    <!-- 우측 상단 배경 오브젝트 -->
+    <image name="bg-object" extra="true">
+      <path>./_assets/bg-object.png</path>
+      <pos>1183 0</pos>
+      <size>737 760</size>
+      <zIndex>8</zIndex>
+    </image>
+
     <!-- 왼쪽 사이드바 (하단 우측 모서리 라운드) -->
     <image name="sidebar" extra="true">
       <path>./_assets/sidebar-rounded.svg</path>
