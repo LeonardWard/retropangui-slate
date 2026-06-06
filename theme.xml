@@ -2,13 +2,26 @@
 <theme>
   <formatVersion>4</formatVersion>
 
+  <variables>
+    <colorBg>F2F3F4FF</colorBg>
+    <colorSidebar>E8EAEEFF</colorSidebar>
+    <colorDark>1A1E2DFF</colorDark>
+    <colorLogo>1C1F2CFF</colorLogo>
+    <colorAccent>2D5BE3FF</colorAccent>
+    <colorBlue>4A8FE7FF</colorBlue>
+    <colorGray1>9CA8B7FF</colorGray1>
+    <colorGray2>6B7A8EFF</colorGray2>
+    <colorGray3>4A5568FF</colorGray3>
+    <colorDivider>D5DAE6FF</colorDivider>
+  </variables>
+
   <!-- ===== GAMELIST VIEW (basic / detailed / video / grid) ===== -->
   <view name="basic, detailed, video, grid">
 
     <!-- 전체 배경 -->
     <image name="background" extra="true">
       <path>./_assets/white.png</path>
-      <color>F2F3F4FF</color>
+      <color>${colorBg}</color>
       <size>1 1</size>
       <pos>0 0</pos>
       <zIndex>0</zIndex>
@@ -17,7 +30,7 @@
     <!-- 왼쪽 사이드바 -->
     <image name="sidebar" extra="true">
       <path>./_assets/white.png</path>
-      <color>E8EAEEFF</color>
+      <color>${colorSidebar}</color>
       <size>0.243 1.0</size>
       <pos>0 0</pos>
       <zIndex>5</zIndex>
@@ -26,7 +39,7 @@
     <!-- 상단 헤더바 (화이트) -->
     <image name="header-bar" extra="true">
       <path>./_assets/white.png</path>
-      <color>F2F3F4FF</color>
+      <color>${colorBg}</color>
       <size>0.757 0.137</size>
       <pos>0.243 0</pos>
       <zIndex>6</zIndex>
@@ -35,7 +48,7 @@
     <!-- 하단 풋터바 (화이트) -->
     <image name="footer-bar" extra="true">
       <path>./_assets/white.png</path>
-      <color>F2F3F4FF</color>
+      <color>${colorBg}</color>
       <size>0.757 0.083</size>
       <pos>0.243 0.917</pos>
       <zIndex>6</zIndex>
@@ -84,7 +97,7 @@
       <size>0.500 0.060</size>
       <fontSize>0.032</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
-      <color>1A1E2DFF</color>
+      <color>${colorDark}</color>
       <forceUppercase>1</forceUppercase>
       <zIndex>10</zIndex>
     </text>
@@ -104,7 +117,7 @@
       <origin>0.5 0.5</origin>
       <pos>0.1215 0.200</pos>
       <maxSize>0.183 0.090</maxSize>
-      <color>1C1F2CFF</color>
+      <color>${colorLogo}</color>
       <zIndex>15</zIndex>
     </image>
 
@@ -115,7 +128,7 @@
       <size>0.215 0.04</size>
       <fontSize>0.016</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>6B7A8EFF</color>
+      <color>${colorGray2}</color>
       <alignment>center</alignment>
       <forceUppercase>0</forceUppercase>
       <zIndex>10</zIndex>
@@ -128,7 +141,7 @@
       <size>0.215 0.250</size>
       <fontSize>0.016</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>4A5568FF</color>
+      <color>${colorGray3}</color>
       <lineSpacing>1.5</lineSpacing>
       <forceUppercase>0</forceUppercase>
       <alignment>center</alignment>
@@ -142,7 +155,7 @@
       <size>0.215 0.06</size>
       <fontSize>0.017</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>6B7A8EFF</color>
+      <color>${colorGray2}</color>
       <alignment>center</alignment>
       <zIndex>10</zIndex>
     </text>
@@ -173,7 +186,7 @@
       <size>0.405 0.036</size>
       <fontSize>0.022</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
-      <color>1A1E2DFF</color>
+      <color>${colorDark}</color>
       <zIndex>10</zIndex>
     </text>
 
@@ -189,7 +202,7 @@
     <text name="md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_players, md_lbl_releasedate, md_lbl_genre">
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <fontSize>0.015</fontSize>
-      <color>9CA8B7FF</color>
+      <color>${colorGray1}</color>
       <forceUppercase>0</forceUppercase>
       <zIndex>10</zIndex>
     </text>
@@ -205,7 +218,7 @@
       <pos>0.668 0.577</pos>
       <size>0.090 0.026</size>
       <fontSize>0.015</fontSize>
-      <color>4A5568FF</color>
+      <color>${colorGray3}</color>
       <format>%Y</format>
       <zIndex>10</zIndex>
     </datetime>
@@ -221,7 +234,7 @@
       <pos>0.668 0.603</pos>
       <size>0.310 0.026</size>
       <fontSize>0.015</fontSize>
-      <color>4A5568FF</color>
+      <color>${colorGray3}</color>
       <zIndex>10</zIndex>
     </text>
 
@@ -236,7 +249,7 @@
       <pos>0.668 0.630</pos>
       <size>0.310 0.026</size>
       <fontSize>0.015</fontSize>
-      <color>4A5568FF</color>
+      <color>${colorGray3}</color>
       <zIndex>10</zIndex>
     </text>
 
@@ -251,7 +264,7 @@
       <pos>0.668 0.656</pos>
       <size>0.310 0.026</size>
       <fontSize>0.015</fontSize>
-      <color>4A5568FF</color>
+      <color>${colorGray3}</color>
       <zIndex>10</zIndex>
     </text>
 
@@ -266,7 +279,7 @@
       <pos>0.668 0.683</pos>
       <size>0.090 0.026</size>
       <fontSize>0.015</fontSize>
-      <color>4A5568FF</color>
+      <color>${colorGray3}</color>
       <zIndex>10</zIndex>
     </text>
 
@@ -280,7 +293,7 @@
       <origin>0 0.5</origin>
       <pos>0.668 0.715</pos>
       <size>0.110 0.018</size>
-      <color>4A8FE7FF</color>
+      <color>${colorBlue}</color>
       <zIndex>10</zIndex>
     </rating>
 
@@ -290,7 +303,7 @@
       <size>0.405 0.160</size>
       <fontSize>0.016</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>6B7A8EFF</color>
+      <color>${colorGray2}</color>
       <lineSpacing>1.5</lineSpacing>
       <zIndex>10</zIndex>
     </text>
@@ -354,7 +367,7 @@
     <!-- 전체 배경 -->
     <image name="background" extra="true">
       <path>./_assets/white.png</path>
-      <color>F2F3F4FF</color>
+      <color>${colorBg}</color>
       <size>1 1</size>
       <pos>0 0</pos>
       <zIndex>0</zIndex>
@@ -371,7 +384,7 @@
     <!-- 사이드바 상단 헤더 (로고 영역, 같은 색) -->
     <image name="sidebar-header" extra="true">
       <path>./_assets/white.png</path>
-      <color>E8EAEEFF</color>
+      <color>${colorSidebar}</color>
       <size>0.243 0.137</size>
       <pos>0 0</pos>
       <zIndex>6</zIndex>
@@ -380,7 +393,7 @@
     <!-- 사이드바 하단 풋터 (흰색) -->
     <image name="sidebar-footer" extra="true">
       <path>./_assets/white.png</path>
-      <color>F2F3F4FF</color>
+      <color>${colorBg}</color>
       <size>0.243 0.083</size>
       <pos>0 0.917</pos>
       <zIndex>6</zIndex>
@@ -389,7 +402,7 @@
     <!-- 메인 헤더바 (화이트) -->
     <image name="main-header" extra="true">
       <path>./_assets/white.png</path>
-      <color>F2F3F4FF</color>
+      <color>${colorBg}</color>
       <size>0.757 0.137</size>
       <pos>0.243 0</pos>
       <zIndex>6</zIndex>
@@ -398,7 +411,7 @@
     <!-- 메인 풋터바 (화이트) -->
     <image name="main-footer" extra="true">
       <path>./_assets/white.png</path>
-      <color>F2F3F4FF</color>
+      <color>${colorBg}</color>
       <size>0.757 0.083</size>
       <pos>0.243 0.917</pos>
       <zIndex>6</zIndex>
@@ -479,7 +492,7 @@
       <origin>0 0</origin>
       <pos>0.277 0.175</pos>
       <maxSize>0.382 0.127</maxSize>
-      <color>1A1E2DFF</color>
+      <color>${colorDark}</color>
       <zIndex>10</zIndex>
     </image>
 
@@ -490,7 +503,7 @@
       <size>0.420 0.040</size>
       <fontSize>0.032</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
-      <color>2D5BE3FF</color>
+      <color>${colorAccent}</color>
       <forceUppercase>1</forceUppercase>
       <zIndex>10</zIndex>
     </text>
@@ -498,7 +511,7 @@
     <!-- 3. 구분선 1 -->
     <image name="content-divider-1" extra="true">
       <path>./_assets/white.png</path>
-      <color>2D5BE3FF</color>
+      <color>${colorAccent}</color>
       <size>0.060 0.003</size>
       <pos>0.277 0.373</pos>
       <zIndex>10</zIndex>
@@ -511,7 +524,7 @@
       <size>0.420 0.030</size>
       <fontSize>0.017</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>9CA8B7FF</color>
+      <color>${colorGray1}</color>
       <forceUppercase>0</forceUppercase>
       <zIndex>10</zIndex>
     </text>
@@ -523,7 +536,7 @@
       <size>0.420 0.115</size>
       <fontSize>0.017</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>6B7A8EFF</color>
+      <color>${colorGray2}</color>
       <lineSpacing>1.6</lineSpacing>
       <forceUppercase>0</forceUppercase>
       <zIndex>10</zIndex>
@@ -554,14 +567,14 @@
       <size>0.150 0.030</size>
       <fontSize>0.018</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
-      <color>1A1E2DFF</color>
+      <color>${colorDark}</color>
       <zIndex>10</zIndex>
     </text>
 
     <!-- 7. 스탯 행: 구분자 (2행 높이) -->
     <image name="stat-divider" extra="true">
       <path>./_assets/white.png</path>
-      <color>D5DAE6FF</color>
+      <color>${colorDivider}</color>
       <size>0.001 0.050</size>
       <pos>0.369 0.775</pos>
       <zIndex>10</zIndex>
@@ -592,7 +605,7 @@
       <size>0.110 0.022</size>
       <fontSize>0.018</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
-      <color>1A1E2DFF</color>
+      <color>${colorDark}</color>
       <zIndex>10</zIndex>
       <text>즐겨찾기</text>
     </text>
@@ -673,7 +686,7 @@
       <origin>0 0.5</origin>
       <pos>0.275 0.244</pos>
       <maxSize>0.332 0.110</maxSize>
-      <color>1C1F2CFF</color>
+      <color>${colorLogo}</color>
       <zIndex>15</zIndex>
     </image>
 
