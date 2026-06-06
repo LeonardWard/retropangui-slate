@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <theme>
   <formatVersion>4</formatVersion>
+  <resolution>1920 1080</resolution>
   <include>./../theme.xml</include>
   <view name="system, basic, detailed, video, grid">
     <text name="systemfullname" extra="true">
