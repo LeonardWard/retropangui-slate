@@ -594,14 +594,33 @@
       <zIndex>10</zIndex>
     </image>
 
-    <!-- 6. 스탯 행: 게임 수 — 상단 행 (크게, 볼드) -->
+    <!-- 6. 스탯 행: 기본 systemInfo("N GAMES AVAILABLE" 한 줄)는 숨기고
+         gameCountNumber(숫자만, ES 확장 요소) + GAMES 레이블 2행으로 표시 -->
     <text name="systemInfo">
+      <visible>false</visible>
+    </text>
+
+    <!-- 6a. 스탯 행: 게임 수 숫자 — 상단 행 (크게, 볼드) -->
+    <text name="gameCountNumber">
       <origin>0 0.5</origin>
-      <pos>499 864</pos>
-      <size>288 32</size>
-      <fontSize>19</fontSize>
+      <pos>599 850</pos>
+      <size>288 36</size>
+      <fontSize>29</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
       <color>${colorDark}</color>
+      <zIndex>10</zIndex>
+    </text>
+
+    <!-- 6b. 스탯 행: GAMES 레이블 — 하단 행 (작게, 회색) -->
+    <text name="games-label" extra="true">
+      <origin>0 0.5</origin>
+      <pos>600 882</pos>
+      <size>288 20</size>
+      <fontSize>15</fontSize>
+      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <color>${colorGray2}</color>
+      <forceUppercase>1</forceUppercase>
+      <text>GAMES</text>
       <zIndex>10</zIndex>
     </text>
 
