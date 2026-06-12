@@ -605,6 +605,8 @@
       <origin>0 0.5</origin>
       <pos>599 850</pos>
       <size>288 36</size>
+      <!-- ES 코드 기본 정렬이 center라 명시 필요 — 레이블과 좌측 라인 맞춤 -->
+      <alignment>left</alignment>
       <fontSize>29</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
       <color>${colorDark}</color>
@@ -616,6 +618,7 @@
       <origin>0 0.5</origin>
       <pos>600 882</pos>
       <size>288 20</size>
+      <alignment>left</alignment>
       <fontSize>15</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>${colorGray2}</color>
