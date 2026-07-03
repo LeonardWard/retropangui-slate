@@ -85,6 +85,7 @@
       <lineSpacing>1.5</lineSpacing>
       <forceUppercase>0</forceUppercase>
       <alignment>center</alignment>
+      <scrollable>true</scrollable>
       <zIndex>10</zIndex>
     </text>
 
@@ -97,6 +98,20 @@
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>9CA8B7FF</color>
       <alignment>center</alignment>
+      <zIndex>10</zIndex>
+    </text>
+
+    <!-- 사이드바 맨 하단 footer: 재생 중인 BGM 트랙 제목 (ES가 값만 넘겨줌, 표시 여부/스타일은 여기서 결정) -->
+    <text name="bgmTitle" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.105 0.965</pos>
+      <size>0.19 0.03</size>
+      <fontSize>0.013</fontSize>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <color>6B7A8EFF</color>
+      <alignment>center</alignment>
+      <forceUppercase>0</forceUppercase>
+      <scrollable>true</scrollable>
       <zIndex>10</zIndex>
     </text>
 
@@ -249,6 +264,7 @@
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>6B7A8EFF</color>
       <lineSpacing>1.5</lineSpacing>
+      <scrollable>true</scrollable>
       <zIndex>10</zIndex>
     </text>
 
@@ -289,6 +305,7 @@
       <origin>0.5 0.5</origin>
       <maxSize>0.30 0.37</maxSize>
       <delay>1.5</delay>
+      <fadeTime>0.5</fadeTime>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <zIndex>10</zIndex>
