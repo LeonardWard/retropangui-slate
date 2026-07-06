@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 임시 플레이스홀더 로고(2026-07-06) - 스크린샷 뷰어 가상 시스템용, 나중에
+     다른 로고들처럼 제대로 트레이싱된 워드마크로 교체 가능. 카메라 실루엣.
+     ES의 SVG 렌더링(nanosvg)은 <text> 요소를 지원하지 않아 도형(rect/circle)만 사용,
+     흰색(#FFFFFF)으로 채워서 ImageComponent의 colorShift 곱연산 틴트가 정상 적용되게 함. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100">
+  <rect x="10" y="26" width="140" height="64" rx="12" fill="#FFFFFF"/>
+  <rect x="58" y="10" width="44" height="20" rx="4" fill="#FFFFFF"/>
+  <circle cx="80" cy="58" r="24" fill="#FFFFFF" opacity="0.55"/>
+</svg>
