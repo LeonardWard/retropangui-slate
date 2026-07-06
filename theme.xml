@@ -693,6 +693,7 @@
     </image>
     <image name="rp-card-1" extra="true">
       <path>./_assets/rp-card.svg</path>
+      <default>./_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>632 883</pos>
       <maxSize>198 165</maxSize>
@@ -700,6 +701,7 @@
     </image>
     <image name="rp-card-2" extra="true">
       <path>./_assets/rp-card.svg</path>
+      <default>./_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>852 883</pos>
       <maxSize>198 165</maxSize>
@@ -707,6 +709,7 @@
     </image>
     <image name="rp-card-3" extra="true">
       <path>./_assets/rp-card.svg</path>
+      <default>./_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>1072 883</pos>
       <maxSize>198 165</maxSize>
@@ -714,6 +717,7 @@
     </image>
     <image name="rp-card-4" extra="true">
       <path>./_assets/rp-card.svg</path>
+      <default>./_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>1292 883</pos>
       <maxSize>198 165</maxSize>
@@ -721,6 +725,7 @@
     </image>
     <image name="rp-card-5" extra="true">
       <path>./_assets/rp-card.svg</path>
+      <default>./_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>1512 883</pos>
       <maxSize>198 165</maxSize>
@@ -728,6 +733,7 @@
     </image>
     <image name="rp-card-6" extra="true">
       <path>./_assets/rp-card.svg</path>
+      <default>./_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>1732 883</pos>
       <maxSize>198 165</maxSize>
