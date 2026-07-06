@@ -666,38 +666,79 @@
       <text>즐겨찾기</text>
     </text>
 
-    <!-- 10~13. RECENTLY PLAYED 이미테이션 (숨김 — 나중에 위치 활성화) -->
+    <!-- 10~13. RECENTLY PLAYED 섹션 (2026-07-06: docs/retropangui-slate-design/System View.png
+         목업을 픽셀 단위로 실측해서 위치 확정 — 목업엔 카드가 5장이 아니라 6장이라
+         rp-card-6 신규 추가, ES(SystemView.cpp)의 MAX_RECENT_CARDS도 6으로 맞춰야 함.
+         카드 이미지는 setImage()로 실제 게임 썸네일로 완전히 교체되므로 rp-card.svg는
+         "썸네일 없음" 플레이스홀더로만 쓰이고, 목업의 게임 제목 글자는 박스아트 자체에
+         포함된 것이라 별도 이름 텍스트 extra는 없음(rp-card-N-name은 SystemView.cpp가
+         optional로 찾으려 시도하지만 없으면 조용히 스킵). -->
     <text name="rp-header" extra="true">
-      <pos>2880 1620</pos><size>0 0</size>
+      <origin>0 0</origin>
+      <pos>532 737</pos>
+      <size>300 30</size>
+      <fontSize>19</fontSize>
+      <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
+      <color>${colorDark}</color>
+      <forceUppercase>1</forceUppercase>
       <text>RECENTLY PLAYED</text>
+      <zIndex>10</zIndex>
     </text>
     <image name="content-divider-2" extra="true">
       <path>./_assets/white.png</path>
-      <pos>2880 1620</pos><size>0 0</size>
+      <color>${colorAccent}</color>
+      <size>33 3</size>
+      <pos>532 770</pos>
+      <zIndex>10</zIndex>
     </image>
     <image name="rp-card-1" extra="true">
       <path>./_assets/rp-card.svg</path>
-      <pos>2880 1620</pos><size>0 0</size>
+      <origin>0.5 0.5</origin>
+      <pos>632 883</pos>
+      <maxSize>198 165</maxSize>
+      <zIndex>10</zIndex>
     </image>
     <image name="rp-card-2" extra="true">
       <path>./_assets/rp-card.svg</path>
-      <pos>2880 1620</pos><size>0 0</size>
+      <origin>0.5 0.5</origin>
+      <pos>852 883</pos>
+      <maxSize>198 165</maxSize>
+      <zIndex>10</zIndex>
     </image>
     <image name="rp-card-3" extra="true">
       <path>./_assets/rp-card.svg</path>
-      <pos>2880 1620</pos><size>0 0</size>
+      <origin>0.5 0.5</origin>
+      <pos>1072 883</pos>
+      <maxSize>198 165</maxSize>
+      <zIndex>10</zIndex>
     </image>
     <image name="rp-card-4" extra="true">
       <path>./_assets/rp-card.svg</path>
-      <pos>2880 1620</pos><size>0 0</size>
+      <origin>0.5 0.5</origin>
+      <pos>1292 883</pos>
+      <maxSize>198 165</maxSize>
+      <zIndex>10</zIndex>
     </image>
     <image name="rp-card-5" extra="true">
       <path>./_assets/rp-card.svg</path>
-      <pos>2880 1620</pos><size>0 0</size>
+      <origin>0.5 0.5</origin>
+      <pos>1512 883</pos>
+      <maxSize>198 165</maxSize>
+      <zIndex>10</zIndex>
+    </image>
+    <image name="rp-card-6" extra="true">
+      <path>./_assets/rp-card.svg</path>
+      <origin>0.5 0.5</origin>
+      <pos>1732 883</pos>
+      <maxSize>198 165</maxSize>
+      <zIndex>10</zIndex>
     </image>
     <image name="rp-dots" extra="true">
       <path>./_assets/rp-dots.svg</path>
-      <pos>2880 1620</pos><size>0 0</size>
+      <origin>0.5 0</origin>
+      <pos>1179 978</pos>
+      <maxSize>120 15</maxSize>
+      <zIndex>10</zIndex>
     </image>
 
     <!-- 도움말 (하단 풋터 세로 중앙) -->
