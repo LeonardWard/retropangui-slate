@@ -747,6 +747,22 @@
       <zIndex>10</zIndex>
     </image>
 
+    <!-- 하단 푸터 우측: 재생 중인 BGM 트랙 제목 (ES가 값만 넘겨줌, 표시 위치/스타일은
+         테마 책임 - 2026-07-06 게임리스트 사이드바에서 여기로 이동, 게임리스트
+         화면에서는 더 이상 표시 안 함) -->
+    <text name="bgmTitle" extra="true">
+      <origin>1 0.5</origin>
+      <pos>1862 1035</pos>
+      <size>380 30</size>
+      <fontSize>19</fontSize>
+      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <color>${colorGray1}</color>
+      <alignment>right</alignment>
+      <forceUppercase>0</forceUppercase>
+      <scrollable>true</scrollable>
+      <zIndex>10</zIndex>
+    </text>
+
     <!-- 도움말 (하단 풋터 세로 중앙) -->
     <helpsystem name="help">
       <pos>58 1026</pos>

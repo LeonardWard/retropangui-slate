@@ -101,19 +101,8 @@
       <zIndex>10</zIndex>
     </text>
 
-    <!-- 사이드바 맨 하단 footer: 재생 중인 BGM 트랙 제목 (ES가 값만 넘겨줌, 표시 여부/스타일은 여기서 결정) -->
-    <text name="bgmTitle" extra="true">
-      <origin>0.5 0.5</origin>
-      <pos>0.105 0.965</pos>
-      <size>0.19 0.03</size>
-      <fontSize>0.013</fontSize>
-      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>6B7A8EFF</color>
-      <alignment>center</alignment>
-      <forceUppercase>0</forceUppercase>
-      <scrollable>true</scrollable>
-      <zIndex>10</zIndex>
-    </text>
+    <!-- bgmTitle은 2026-07-06부로 메인 화면(system 뷰) 푸터 우측으로 이동 -
+         게임리스트 화면에서는 안 보여주기로 함(theme.xml 참고) -->
 
     <!-- 게임 목록 -->
     <textlist name="gamelist">
