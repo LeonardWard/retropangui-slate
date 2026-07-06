@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <resolution>1920 1080</resolution>
+  <include>./../theme.xml</include>
+  <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>SEGA 32X</text>
+    </text>
+    <text name="shortdescription" extra="true">
+      <text>1994 · SEGA · 32-BIT</text>
+    </text>
+    <text name="longdescription" extra="true">
+      <text>메가드라이브에 장착하는 32비트 확장 장치. 차세대 콘솔 등장을 앞두고 수명을 늘리려 했으나 짧게 단종됐습니다.</text>
+    </text>
+  </view>
+</theme>

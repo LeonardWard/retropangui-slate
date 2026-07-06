@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <resolution>1920 1080</resolution>
+  <include>./../theme.xml</include>
+  <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>NEC PC-8800</text>
+    </text>
+    <text name="shortdescription" extra="true">
+      <text>1981 · NEC · 8-BIT</text>
+    </text>
+    <text name="longdescription" extra="true">
+      <text>일본에서 큰 인기를 끈 NEC의 8비트 홈 컴퓨터 시리즈. 미소녀 게임과 RPG 등 일본 PC 게임 문화의 근간이 되었습니다.</text>
+    </text>
+  </view>
+</theme>

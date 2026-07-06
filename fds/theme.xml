@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <resolution>1920 1080</resolution>
+  <include>./../theme.xml</include>
+  <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>FAMICOM DISK SYSTEM</text>
+    </text>
+    <text name="shortdescription" extra="true">
+      <text>1986 · NINTENDO · 8-BIT</text>
+    </text>
+    <text name="longdescription" extra="true">
+      <text>닌텐도가 패미컴용으로 내놓은 디스크 확장 기기. 저렴한 디스크 매체로 젤다의 전설, 메트로이드 같은 대용량 게임을 즐길 수 있게 했습니다.</text>
+    </text>
+  </view>
+</theme>

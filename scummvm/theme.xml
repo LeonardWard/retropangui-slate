@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <resolution>1920 1080</resolution>
+  <include>./../theme.xml</include>
+  <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>SCUMMVM</text>
+    </text>
+    <text name="shortdescription" extra="true">
+      <text>1997 · 오픈소스 · 어드벤처 엔진</text>
+    </text>
+    <text name="longdescription" extra="true">
+      <text>루카스아츠 등 90년대 포인트 앤 클릭 어드벤처 게임을 원본 실행 환경 없이도 즐길 수 있게 해주는 오픈소스 게임 엔진입니다.</text>
+    </text>
+  </view>
+</theme>

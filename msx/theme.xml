@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <resolution>1920 1080</resolution>
+  <include>./../theme.xml</include>
+  <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>MSX</text>
+    </text>
+    <text name="shortdescription" extra="true">
+      <text>1983 · MICROSOFT/ASCII · 8-BIT</text>
+    </text>
+    <text name="longdescription" extra="true">
+      <text>마이크로소프트와 ASCII가 주도해 여러 제조사가 만든 8비트 홈 컴퓨터 표준. 일본과 한국에서 특히 인기가 많았습니다.</text>
+    </text>
+  </view>
+</theme>

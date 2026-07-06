@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <resolution>1920 1080</resolution>
+  <include>./../theme.xml</include>
+  <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>NEC PC-9801</text>
+    </text>
+    <text name="shortdescription" extra="true">
+      <text>1982 · NEC · 16-BIT</text>
+    </text>
+    <text name="longdescription" extra="true">
+      <text>1990년대까지 일본 PC 시장을 사실상 독점했던 NEC의 16비트 컴퓨터 시리즈. 방대한 일본어 어드벤처·RPG 게임 라이브러리를 보유합니다.</text>
+    </text>
+  </view>
+</theme>

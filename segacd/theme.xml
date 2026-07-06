@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <resolution>1920 1080</resolution>
+  <include>./../theme.xml</include>
+  <view name="system, basic, detailed, video, grid">
+    <text name="systemfullname" extra="true">
+      <text>SEGA CD</text>
+    </text>
+    <text name="shortdescription" extra="true">
+      <text>1991 · SEGA · CD-ROM</text>
+    </text>
+    <text name="longdescription" extra="true">
+      <text>메가드라이브용 CD-ROM 확장 기기. 애니메이션 컷신과 풀모션 비디오를 앞세운 게임들을 선보였습니다.</text>
+    </text>
+  </view>
+</theme>
