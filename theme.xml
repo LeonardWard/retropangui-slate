@@ -739,14 +739,6 @@
       <maxSize>198 165</maxSize>
       <zIndex>10</zIndex>
     </image>
-    <image name="rp-dots" extra="true">
-      <path>./_assets/rp-dots.svg</path>
-      <origin>0.5 0</origin>
-      <pos>1179 978</pos>
-      <maxSize>120 15</maxSize>
-      <zIndex>10</zIndex>
-    </image>
-
     <!-- 하단 푸터 우측: 재생 중인 BGM 트랙 제목 (ES가 값만 넘겨줌, 표시 위치/스타일은
          테마 책임 - 2026-07-06 게임리스트 사이드바에서 여기로 이동, 게임리스트
          화면에서는 더 이상 표시 안 함) -->
