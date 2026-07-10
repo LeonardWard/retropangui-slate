@@ -658,12 +658,25 @@
     <text name="favorites-label" extra="true">
       <origin>0 0.5</origin>
       <pos>831 864</pos>
-      <size>211 24</size>
+      <size>100 24</size>
       <fontSize>19</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
       <color>${colorDark}</color>
       <zIndex>10</zIndex>
       <text>즐겨찾기</text>
+    </text>
+
+    <!-- 9a. 스탯 행: 즐겨찾기 수 — 레이블 오른쪽에 이어서 (ES 확장 요소, gameCountNumber와 같은 방식:
+         테마가 이 엘리먼트를 선언했을 때만 SystemView가 채워 그림) -->
+    <text name="favoriteCountNumber">
+      <origin>0 0.5</origin>
+      <pos>915 864</pos>
+      <size>120 24</size>
+      <alignment>left</alignment>
+      <fontSize>19</fontSize>
+      <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
+      <color>${colorDark}</color>
+      <zIndex>10</zIndex>
     </text>
 
     <!-- 10~13. RECENTLY PLAYED 섹션 (2026-07-06: docs/retropangui-slate-design/System View.png
