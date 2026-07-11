@@ -407,17 +407,25 @@
       <zIndex>8</zIndex>
     </image>
 
-    <!-- 왼쪽 사이드바 (하단 우측 모서리 라운드)
-         2026-07-11: 캐러셀-풋터 경계에 옅은 선이 보인다는 지적. 스크린샷
-         픽셀 값을 찍어본 결과, 이 SVG(sidebar-rounded.svg)가 990px 높이로
-         래스터화될 때 맨 아래 가장자리 1~2px가 완전히 불투명하게 안
-         채워지고 그 자리에 깔린 전체 배경(colorBg, F2F3F4)이 옅게 비쳐서
-         생기는 아티팩트였음(사이드바 색 E8EAEE와 배경색 F2F3F4가 미묘하게
-         달라서 눈에 띔). 처음엔 sidebar를 늘려서 sidebar-footer 밑에
-         가리는 방식으로 고쳤었는데, 사용자가 "가리지 말고 그 장식 SVG
-         자체의 색을 배경색에 맞추라"고 정정 - sidebar-rounded.svg의 fill을
-         E8EAEE→F2F3F4(colorBg)로 바꿔서, 가장자리가 비쳐도 같은 색이라
-         안 보이게 함(_assets/sidebar-rounded.svg 참고). -->
+    <!-- 사이드바 받침(2026-07-11 추가): sidebar-rounded.svg가 990px로
+         래스터화될 때 아래쪽 가장자리 1~2px가 완전히 불투명하게 안 채워져,
+         그 자리에 깔린 전체 배경(colorBg F2F3F4)이 옅게 비쳐 캐러셀-풋터
+         경계에 선처럼 보이는 아티팩트가 있었음(사이드바 색 E8EAEE와
+         미묘하게 달라 눈에 띔). SVG 자체 색이나 크기를 바꾸는 대신, 같은
+         색(colorSidebar)의 받침을 SVG 바로 뒤(zIndex 더 낮음)에 깔아서
+         가장자리가 비쳐도 같은 색이라 안 보이게 함 - 캐러셀 색 자체는
+         안 바뀜. 폭은 라운딩 처리되는 우측 모서리(x≈436~467)는 제외한
+         평평한 구간까지만(0~430) - 그 구간까지 받침을 깔면 라운딩 효과
+         자체가 안 보이게 사라짐. -->
+    <image name="sidebar-backing" extra="true">
+      <path>./_assets/white.png</path>
+      <color>${colorSidebar}</color>
+      <size>430 990</size>
+      <pos>0 0</pos>
+      <zIndex>4</zIndex>
+    </image>
+
+    <!-- 왼쪽 사이드바 (하단 우측 모서리 라운드) -->
     <image name="sidebar" extra="true">
       <path>./_assets/sidebar-rounded.svg</path>
       <size>467 990</size>
