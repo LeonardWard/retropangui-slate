@@ -424,10 +424,14 @@
       <zIndex>6</zIndex>
     </image>
 
-    <!-- 사이드바 하단 풋터 (흰색) -->
+    <!-- 사이드바 하단 풋터 (2026-07-11: colorBg→colorSidebar로 수정 - 바로 위
+         sidebar(E8EAEE, colorSidebar와 같은 값)와 색이 미묘하게 달라서
+         캐러셀-풋터 경계에 옅은 선처럼 보이는 버그였음. sidebar-header는
+         이미 colorSidebar를 올바르게 쓰고 있었는데 footer만 빠뜨렸던 것 -
+         사용자가 육안으로 지적, 스크린샷 색상값 대조로 확인함.) -->
     <image name="sidebar-footer" extra="true">
       <path>./_assets/white.png</path>
-      <color>${colorBg}</color>
+      <color>${colorSidebar}</color>
       <size>467 90</size>
       <pos>0 990</pos>
       <zIndex>6</zIndex>
