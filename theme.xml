@@ -659,29 +659,34 @@
       <zIndex>10</zIndex>
     </image>
 
-    <!-- 9. 스탯 행: 즐겨찾기 레이블 (세로 중앙) -->
-    <text name="favorites-label" extra="true">
-      <origin>0 0.5</origin>
-      <pos>831 670</pos>
-      <size>100 24</size>
-      <fontSize>19</fontSize>
-      <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
-      <color>${colorDark}</color>
-      <zIndex>10</zIndex>
-      <text>즐겨찾기</text>
-    </text>
-
-    <!-- 9a. 스탯 행: 즐겨찾기 수 — 레이블 오른쪽에 이어서 (ES 확장 요소, gameCountNumber와 같은 방식:
-         테마가 이 엘리먼트를 선언했을 때만 SystemView가 채워 그림) -->
+    <!-- 9a. 스탯 행: 즐겨찾기 수 — 상단 행 (2026-07-11: GAMES와 동일한 2행
+         레이아웃으로 통일 - 이전엔 라벨+숫자가 한 줄에 같은 굵기/크기/색으로
+         나란히 있어서 GAMES 블록(숫자 크게 위/라벨 작게 아래)과 어긋나
+         어설퍼 보인다는 지적을 받음. gameCountNumber와 완전히 동일한
+         스타일(fontSize 29 Bold, colorDark)로 맞춤 - ES 확장 요소, 테마가
+         이 엘리먼트를 선언했을 때만 SystemView가 채워 그림) -->
     <text name="favoriteCountNumber">
       <origin>0 0.5</origin>
-      <pos>915 670</pos>
-      <size>120 24</size>
+      <pos>822 656</pos>
+      <size>150 36</size>
       <alignment>left</alignment>
-      <fontSize>19</fontSize>
+      <fontSize>29</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Bold.ttf</fontPath>
       <color>${colorDark}</color>
       <zIndex>10</zIndex>
+    </text>
+
+    <!-- 9b. 스탯 행: 즐겨찾기 레이블 — 하단 행 (games-label과 동일 스타일) -->
+    <text name="favorites-label" extra="true">
+      <origin>0 0.5</origin>
+      <pos>822 688</pos>
+      <size>150 20</size>
+      <alignment>left</alignment>
+      <fontSize>15</fontSize>
+      <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <color>${colorGray2}</color>
+      <zIndex>10</zIndex>
+      <text>즐겨찾기</text>
     </text>
 
     <!-- 10~13. RECENTLY PLAYED 섹션 (2026-07-06: docs/retropangui-slate-design/System View.png
