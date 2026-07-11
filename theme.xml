@@ -407,16 +407,10 @@
       <zIndex>8</zIndex>
     </image>
 
-    <!-- 사이드바 받침(2026-07-11 추가): sidebar-rounded.svg가 990px로
-         래스터화될 때 아래쪽 가장자리 1~2px가 완전히 불투명하게 안 채워져,
-         그 자리에 깔린 전체 배경(colorBg F2F3F4)이 옅게 비쳐 캐러셀-풋터
-         경계에 선처럼 보이는 아티팩트가 있었음(사이드바 색 E8EAEE와
-         미묘하게 달라 눈에 띔). SVG 자체 색이나 크기를 바꾸는 대신, 같은
-         색(colorSidebar)의 받침을 SVG 바로 뒤(zIndex 더 낮음)에 깔아서
-         가장자리가 비쳐도 같은 색이라 안 보이게 함 - 캐러셀 색 자체는
-         안 바뀜. 폭은 라운딩 처리되는 우측 모서리(x≈436~467)는 제외한
-         평평한 구간까지만(0~430) - 그 구간까지 받침을 깔면 라운딩 효과
-         자체가 안 보이게 사라짐. -->
+    <!-- 사이드바 받침 (안전망): sidebar-rounded.svg 가장자리 안티앨리어싱이
+         혹시라도 남아있을 경우를 대비해 같은 색(colorSidebar) 받침을 SVG
+         바로 뒤에 깔아둠 - 라운딩 곡선(x≈436~467)은 제외한 평평한 구간까지만
+         (0~430), 그 이상 덮으면 라운딩 효과 자체가 안 보이게 사라짐. -->
     <image name="sidebar-backing" extra="true">
       <path>./_assets/white.png</path>
       <color>${colorSidebar}</color>
@@ -425,7 +419,14 @@
       <zIndex>4</zIndex>
     </image>
 
-    <!-- 왼쪽 사이드바 (하단 우측 모서리 라운드) -->
+    <!-- 왼쪽 사이드바 (하단 우측 모서리 라운드)
+         2026-07-11: 캐러셀-풋터 경계 미세한 선의 진짜 원인 - sidebar-rounded.svg의
+         viewBox(원래 243x917)가 실제 렌더 크기(467x990)와 종횡비가 안 맞아서
+         (0.265 vs 0.471) 가로세로 다르게 늘어나 그려지고 있었고, 특히 우측
+         하단 라운드 곡선이 이 왜곡 때문에 지저분하게 래스터화됐던 것으로
+         추정 - viewBox를 467x990에 맞게 다시 그려서(_assets/sidebar-rounded.svg)
+         왜곡 자체를 없앰(형태는 원래와 동일 비율로 유지, git 커밋 이력 확인
+         결과 이 왜곡은 이 SVG가 처음 도입된 시점부터 계속 있었음). -->
     <image name="sidebar" extra="true">
       <path>./_assets/sidebar-rounded.svg</path>
       <size>467 990</size>

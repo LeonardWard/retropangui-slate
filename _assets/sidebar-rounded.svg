@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 243 917">
-  <path d="M 0,0 L 243,0 L 243,901 Q 243,917 227,917 L 0,917 Z" fill="#E8EAEE"/>
+<!-- 2026-07-11: viewBox를 실제 렌더링 크기(theme.xml의 sidebar <size> 467x990)와
+     동일한 비율로 맞춤 - 원래 viewBox(243x917)는 실제 렌더 크기와 종횡비가
+     안 맞아서(0.265 vs 0.471, 거의 2배 차이) 가로세로 다르게 늘어나
+     그려졌고, 이게 우측 하단 라운드 곡선 래스터화가 지저분해지는 원인으로
+     의심됨(캐러셀-풋터 경계 미세한 선 문제). 좌표는 원래 모양과 동일한
+     비율로 스케일만 새 viewBox에 맞게 재계산함(시각적 형태 변화 없음). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 467 990">
+  <path d="M 0,0 L 467,0 L 467,973 Q 467,990 436,990 L 0,990 Z" fill="#E8EAEE"/>
 </svg>
