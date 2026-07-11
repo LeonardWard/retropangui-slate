@@ -408,20 +408,19 @@
     </image>
 
     <!-- 왼쪽 사이드바 (하단 우측 모서리 라운드)
-         2026-07-11: 캐러셀-풋터 경계에 옅은 선이 보인다는 지적 - 처음엔
-         sidebar-footer 색상 문제(colorBg vs colorSidebar)로 오판해서
-         고쳤었으나, 스크린샷 픽셀 값을 직접 찍어본 결과 원인이 달랐음:
-         이 SVG(sidebar-rounded.svg)가 990px 높이로 래스터화될 때 맨 아래
-         가장자리 1~2px가 완전히 불투명하게 안 채워지고 살짝 반투명하게
-         비쳐서, 그 자리에 깔린 전체 배경(colorBg, F2F3F4)이 옅게 비쳐
-         보이는 렌더링 아티팩트였음(사이드바 색 E8EAEE와 배경색 F2F3F4가
-         미묘하게 달라서 눈에 띔) - sidebar-footer 색은 원래대로(흰색,
-         colorBg) 되돌리고, 대신 sidebar 자체를 footer 쪽으로 10px 더
-         늘려서 그 흐린 가장자리가 sidebar-footer(zIndex 더 높음) 밑에
-         완전히 가려지게 함. -->
+         2026-07-11: 캐러셀-풋터 경계에 옅은 선이 보인다는 지적. 스크린샷
+         픽셀 값을 찍어본 결과, 이 SVG(sidebar-rounded.svg)가 990px 높이로
+         래스터화될 때 맨 아래 가장자리 1~2px가 완전히 불투명하게 안
+         채워지고 그 자리에 깔린 전체 배경(colorBg, F2F3F4)이 옅게 비쳐서
+         생기는 아티팩트였음(사이드바 색 E8EAEE와 배경색 F2F3F4가 미묘하게
+         달라서 눈에 띔). 처음엔 sidebar를 늘려서 sidebar-footer 밑에
+         가리는 방식으로 고쳤었는데, 사용자가 "가리지 말고 그 장식 SVG
+         자체의 색을 배경색에 맞추라"고 정정 - sidebar-rounded.svg의 fill을
+         E8EAEE→F2F3F4(colorBg)로 바꿔서, 가장자리가 비쳐도 같은 색이라
+         안 보이게 함(_assets/sidebar-rounded.svg 참고). -->
     <image name="sidebar" extra="true">
       <path>./_assets/sidebar-rounded.svg</path>
-      <size>467 1000</size>
+      <size>467 990</size>
       <pos>0 0</pos>
       <zIndex>5</zIndex>
     </image>
