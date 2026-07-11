@@ -407,10 +407,21 @@
       <zIndex>8</zIndex>
     </image>
 
-    <!-- 왼쪽 사이드바 (하단 우측 모서리 라운드) -->
+    <!-- 왼쪽 사이드바 (하단 우측 모서리 라운드)
+         2026-07-11: 캐러셀-풋터 경계에 옅은 선이 보인다는 지적 - 처음엔
+         sidebar-footer 색상 문제(colorBg vs colorSidebar)로 오판해서
+         고쳤었으나, 스크린샷 픽셀 값을 직접 찍어본 결과 원인이 달랐음:
+         이 SVG(sidebar-rounded.svg)가 990px 높이로 래스터화될 때 맨 아래
+         가장자리 1~2px가 완전히 불투명하게 안 채워지고 살짝 반투명하게
+         비쳐서, 그 자리에 깔린 전체 배경(colorBg, F2F3F4)이 옅게 비쳐
+         보이는 렌더링 아티팩트였음(사이드바 색 E8EAEE와 배경색 F2F3F4가
+         미묘하게 달라서 눈에 띔) - sidebar-footer 색은 원래대로(흰색,
+         colorBg) 되돌리고, 대신 sidebar 자체를 footer 쪽으로 10px 더
+         늘려서 그 흐린 가장자리가 sidebar-footer(zIndex 더 높음) 밑에
+         완전히 가려지게 함. -->
     <image name="sidebar" extra="true">
       <path>./_assets/sidebar-rounded.svg</path>
-      <size>467 990</size>
+      <size>467 1000</size>
       <pos>0 0</pos>
       <zIndex>5</zIndex>
     </image>
@@ -424,14 +435,10 @@
       <zIndex>6</zIndex>
     </image>
 
-    <!-- 사이드바 하단 풋터 (2026-07-11: colorBg→colorSidebar로 수정 - 바로 위
-         sidebar(E8EAEE, colorSidebar와 같은 값)와 색이 미묘하게 달라서
-         캐러셀-풋터 경계에 옅은 선처럼 보이는 버그였음. sidebar-header는
-         이미 colorSidebar를 올바르게 쓰고 있었는데 footer만 빠뜨렸던 것 -
-         사용자가 육안으로 지적, 스크린샷 색상값 대조로 확인함.) -->
+    <!-- 사이드바 하단 풋터 (흰색) -->
     <image name="sidebar-footer" extra="true">
       <path>./_assets/white.png</path>
-      <color>${colorSidebar}</color>
+      <color>${colorBg}</color>
       <size>467 90</size>
       <pos>0 990</pos>
       <zIndex>6</zIndex>
