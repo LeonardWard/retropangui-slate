@@ -5,7 +5,13 @@
 
   <variables>
     <colorBg>F2F3F4FF</colorBg>
-    <colorSidebar>E8EAEEFF</colorSidebar>
+    <!-- 2026-07-11: 원래 E8EAEE는 colorBg(F2F3F4)와 채널당 10 정도밖에 안
+         차이나서, 실기기 모니터에서 그 경계에 디더링/밴딩 아티팩트가 보임
+         (kmsgrab 캡처엔 안 잡힘 - GPU 프레임버퍼는 정상이라 디스플레이 쪽
+         후처리 문제로 추정, ES 절전모드로 화면이 어두워지면 사라지는 것도
+         이 가설과 일치). 차이를 채널당 ~20으로 벌려서 안전하게 함 -
+         sidebar-rounded.svg의 fill도 이 값과 반드시 같이 맞출 것. -->
+    <colorSidebar>DCDEE2FF</colorSidebar>
     <colorDark>1A1E2DFF</colorDark>
     <colorLogo>1C1F2CFF</colorLogo>
     <colorAccent>2D5BE3FF</colorAccent>

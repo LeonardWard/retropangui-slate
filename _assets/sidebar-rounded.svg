@@ -6,5 +6,6 @@
      의심됨(캐러셀-풋터 경계 미세한 선 문제). 좌표는 원래 모양과 동일한
      비율로 스케일만 새 viewBox에 맞게 재계산함(시각적 형태 변화 없음). -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 467 990">
-  <path d="M 0,0 L 467,0 L 467,973 Q 467,990 436,990 L 0,990 Z" fill="#E8EAEE"/>
+  <!-- fill은 theme.xml의 colorSidebar와 반드시 같은 값으로 유지할 것 (2026-07-11 DCDEE2로 변경) -->
+  <path d="M 0,0 L 467,0 L 467,973 Q 467,990 436,990 L 0,990 Z" fill="#DCDEE2"/>
 </svg>
