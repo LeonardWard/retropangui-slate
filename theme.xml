@@ -792,14 +792,6 @@
   <feature supported="carousel">
   <view name="system">
 
-    <!-- 선택 항목 하단 글로우 디스크 -->
-    <image name="carousel-disc-glow" extra="true">
-      <path>./_assets/carousel-deco-disc.svg</path>
-      <size>177 8</size>
-      <pos>145 637</pos>
-      <zIndex>25</zIndex>
-    </image>
-
     <!-- 세로형 캐러셀 (헤더~풋터 사이) -->
     <carousel name="systemcarousel">
       <type>vertical</type>
