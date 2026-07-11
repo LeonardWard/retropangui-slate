@@ -6,6 +6,16 @@
      의심됨(캐러셀-풋터 경계 미세한 선 문제). 좌표는 원래 모양과 동일한
      비율로 스케일만 새 viewBox에 맞게 재계산함(시각적 형태 변화 없음). -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 467 990">
-  <!-- fill은 theme.xml의 colorSidebar와 반드시 같은 값으로 유지할 것 (2026-07-11 DCDEE2로 변경) -->
-  <path d="M 0,0 L 467,0 L 467,973 Q 467,990 436,990 L 0,990 Z" fill="#DCDEE2"/>
+  <!-- 2026-07-11: 우측 하단 라운딩을 path의 Q(2차 베지어 곡선)로 그렸더니
+       실기기 모니터에서 그 곡선 자리에 미세한 선이 보이는 문제가 확인됨
+       (곡선을 없애고 완전 사각형으로 테스트했을 때 선이 사라지는 것까지
+       확인 - 곡선 래스터화 자체가 원인). 곡선 path 대신 rect + circle(둘 다
+       기본 도형, 곡선 path 아님)로 라운딩을 흉내냄 - 사이드바 색 사각형
+       위에, 배경색(F2F3F4, colorBg와 동일)의 원을 모서리에 겹쳐 그려서
+       그 자리만 배경색으로 "깎아내는" 방식(고전적인 CSS/SVG 모서리 컷
+       기법). fill 값은 theme.xml의 colorSidebar(사각형)/colorBg(원)와
+       반드시 같이 맞출 것. -->
+  <rect x="0" y="0" width="467" height="990" fill="#DCDEE2"/>
+  <rect x="447" y="970" width="20" height="20" fill="#F2F3F4"/>
+  <circle cx="447" cy="970" r="20" fill="#DCDEE2"/>
 </svg>
