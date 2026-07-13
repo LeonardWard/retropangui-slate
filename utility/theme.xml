@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <resolution>1920 1080</resolution>
+  <include>./../theme.xml</include>
+  <!-- utility 로고는 다른 시스템들(흰색 실루엣 + 테마가 색을 곱함)과 달리
+       원색 컬러 SVG라서, 기본 틴트(colorLogo/colorDark = 남색 계열)를 곱하면
+       통째로 검게 뭉개짐(2026-07-13 실기기 확인). 이 시스템만 무변조(흰색
+       곱하기 = 원색 유지)로 오버라이드. -->
+  <view name="system, basic, detailed, video, grid">
+    <image name="logo">
+      <color>FFFFFFFF</color>
+    </image>
+    <image name="system-logo-title" extra="true">
+      <color>FFFFFFFF</color>
+    </image>
+    <text name="systemfullname" extra="true">
+      <text>UTILITY</text>
+    </text>
+    <text name="shortdescription" extra="true">
+      <text>터미널 · 시스템 도구</text>
+    </text>
+  </view>
+</theme>
