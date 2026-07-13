@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In  -->
+<!-- 2026-07-13: 원본 "PC-8800シリーズ" 로고에서 "PC-88"만 남기고 크롭
+     (뒤의 00+シリーズ 글리프 path 5개 제거, viewBox 1362.6→560).
+     캐러셀에서 가로로 너무 길게 나오던 문제 - pc98.svg("PC-98"만 크롭)와
+     같은 처리. -->
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -12,9 +16,9 @@
    version="1.1"
    x="0px"
    y="0px"
-   width="1362.6"
+   width="560"
    height="160.89214"
-   viewBox="-14.625 -9 1362.6 160.89214"
+   viewBox="-14.625 -9 560 160.89214"
    enable-background="new -14.625 -9 1386 180"
    xml:space="preserve"
    id="svg36"
@@ -56,14 +60,6 @@
      id="path6"
      inkscape:connector-curvature="0"
      style="clip-rule:evenodd;fill-rule:evenodd;fill:#ffffff;fill-opacity:1" /><path
-     d="m 555.674,-7.235 c 17.755,-1.81 33.311,4.689 41.995,12.999 26.06,24.935 30.287,106.69 -1,133.983 -12.841,11.201 -39.696,17.006 -59.993,7 -19.53,-9.629 -31.006,-35.318 -32.996,-64.993 -3.115,-46.469 10.278,-84.737 51.994,-88.989 z m 5.999,127.983 c 31.296,-0.674 30.004,-104.999 -5,-95.987 -24.858,6.4 -24.42,96.622 5,95.987 z"
-     id="path8"
-     inkscape:connector-curvature="0"
-     style="clip-rule:evenodd;fill-rule:evenodd;fill:#ffffff;fill-opacity:1" /><path
-     d="m 679.433,-8.329 c 17.755,-1.81 33.311,4.689 41.995,12.999 26.061,24.935 30.287,106.69 -1,133.983 -12.841,11.201 -39.696,17.006 -59.993,7 -19.53,-9.629 -31.006,-35.318 -32.996,-64.993 -3.115,-46.469 10.277,-84.737 51.994,-88.989 z m 5.999,127.983 c 31.297,-0.674 30.004,-104.999 -4.999,-95.987 -24.859,6.4 -24.421,96.622 4.999,95.987 z"
-     id="path10"
-     inkscape:connector-curvature="0"
-     style="clip-rule:evenodd;fill-rule:evenodd;fill:#ffffff;fill-opacity:1" /><path
      d="M 184.72,-5.976 V 25 C 99.782,2.167 100.352,139.5 183.58,116.754 V 147.75 C 54.73,180 54.16,-35.667 184.72,-5.976 Z"
      id="path12"
      inkscape:connector-curvature="0"
@@ -75,23 +71,11 @@
      points="776.273,41.76 776.273,11.683 846.265,11.764 846.265,41.76 "
      id="polygon16"
      style="clip-rule:evenodd;fill-rule:evenodd;fill:#ffffff;fill-opacity:1"
-     transform="translate(-14.625,-9)" /><path
-     d="m 1291.25,149.618 h -33.125 c -3.75,-15.854 -25.623,-44.344 -25.623,-44.344 l -36.465,37.649 c -6.589,6.589 -18.636,6.694 -31.037,6.694 h -10.4 v -28.243 l 6.999,0.015 c 7.53,0 14.165,-0.626 19.909,-6.369 l 63.738,-67.066 c 6.784,-6.784 3.129,-16.439 -8.561,-16.439 l -82.086,0.187 V 2.765 h 82.65 c 40,0 51.799,42.711 37.227,58.212 l -20.751,21.727 c 0,0.001 35.525,50.92 37.525,66.914 z"
-     id="path18"
-     inkscape:connector-curvature="0"
-     style="clip-rule:evenodd;fill-rule:evenodd;fill:#ffffff;fill-opacity:1" /><polygon
+     transform="translate(-14.625,-9)" /><polygon
      points="926.255,81.754 926.255,11.683 958.25,11.683 958.25,81.754 "
      id="polygon20"
      style="clip-rule:evenodd;fill-rule:evenodd;fill:#ffffff;fill-opacity:1"
-     transform="translate(-14.625,-9)" /><path
-     d="m 1023.615,2.683 v 91.208 c 0,30.75 -23.115,53.855 -51.74,53.855 H 911.63 V 117.75 l 56.005,-0.109 c 15.49,0 24.116,-8.23 24.117,-24.875 0,-16.756 0.123,-90.083 0.123,-90.083 z"
-     id="path22"
-     inkscape:connector-curvature="0"
-     style="clip-rule:evenodd;fill-rule:evenodd;fill:#ffffff;fill-opacity:1" /><path
-     d="M 894.25,10.766 V 93.5 c 0,31.5 -28.75,54.246 -54.5,54.246 H 761.648 V 115.75 l 77.852,-0.051 c 13.25,0 23.252,-7.199 23.252,-21.717 l 0.123,-83.216 z"
-     id="path24"
-     inkscape:connector-curvature="0"
-     style="clip-rule:evenodd;fill-rule:evenodd;fill:#ffffff;fill-opacity:1" /><polygon
+     transform="translate(-14.625,-9)" /><polygon
      points="776.273,57.933 846.265,57.891 846.265,87.756 776.273,87.754 "
      id="polygon26"
      style="clip-rule:evenodd;fill-rule:evenodd;fill:#ffffff;fill-opacity:1"
