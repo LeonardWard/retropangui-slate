@@ -20,6 +20,15 @@
     <colorGray2>6B7A8EFF</colorGray2>
     <colorGray3>4A5568FF</colorGray3>
     <colorDivider>D5DAE6FF</colorDivider>
+
+    <!-- 2026-07-17: 시스템별 최신 스크린샷 경로 - 셸 커맨드 결과(ls -t로 찾은
+         최신 파일)를 그대로 값으로 씀. 복사/훅 스크립트 없이 테마가 스스로
+         screenshots/<시스템>/ 폴더를 들여다봄(ThemeData.cpp parseVariables()의
+         exec 속성 지원). $RETROPANGUI_SHARE는 ES 프로세스 환경변수(ES의
+         ${} 치환이 아니라 셸 자체의 변수 확장) - S99emulationstation이 export.
+         스크린샷이 하나도 없으면 빈 문자열 → 아래 image가 <default> 없이
+         조용히 빈 화면으로 남음(의도된 동작, 크래시/에러 없음). -->
+    <latestScreenshot exec="ls -t $RETROPANGUI_SHARE/screenshots/${system.name}/*.png 2>/dev/null | head -1"/>
   </variables>
 
   <!-- ===== GAMELIST VIEW (basic / detailed / video / grid) ===== -->
@@ -380,9 +389,11 @@
       <zIndex>0</zIndex>
     </image>
 
-    <!-- 시스템 실루엣 이미지 -->
+    <!-- 시스템 실루엣 이미지 - 2026-07-17: 복사본이 아니라 실제 스크린샷
+         파일을 exec 변수(latestScreenshot, 위 <variables> 참고)로 직접
+         가리킴. 스크린샷이 아직 없는 시스템은 <default> 없이 빈 화면. -->
     <image name="system-silhouette" extra="true">
-      <path>./_assets/screenshots/${system.theme}.png</path>
+      <path>${latestScreenshot}</path>
       <origin>1 0</origin>
       <pos>1920 0</pos>
       <maxSize>550 700</maxSize>
