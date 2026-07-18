@@ -1,19 +1,19 @@
 # retropangui-slate
 
-EmulationStation theme for RetroPangUI — a modern slate design with dark sidebar and light content area.
+RetroPangUI용 EmulationStation 테마 — 다크 사이드바와 밝은 콘텐츠 영역을 가진 모던 슬레이트 디자인.
 
-## Design
+## 디자인
 
-- **System view**: Dark navy sidebar with vertical carousel + large system logo + description + console art
-- **Gamelist view**: 3-column layout (sidebar / game list / screenshot + metadata)
-- **Font**: [Pretendard](https://github.com/orioncactus/pretendard) (Korean + Latin)
-- **Accent color**: `#4A8FE7` (blue)
-- **Background**: `#EEF1F7` (light gray)
-- **Sidebar**: `#1A1E2D` (dark navy)
+- **시스템 뷰**: 다크 네이비 사이드바 + 세로 캐러셀 + 큰 시스템 로고 + 설명 + 콘솔 아트
+- **게임목록 뷰**: 3단 레이아웃 (사이드바 / 게임 목록 / 스크린샷 + 메타데이터)
+- **폰트**: [Pretendard](https://github.com/orioncactus/pretendard) (한글 + 라틴)
+- **강조 색상**: `#4A8FE7` (파랑)
+- **배경**: `#EEF1F7` (밝은 회색)
+- **사이드바**: `#1A1E2D` (다크 네이비)
 
-## Layout
+## 레이아웃
 
-### System View
+### 시스템 뷰
 | 영역 | 위치 | 내용 |
 |---|---|---|
 | 사이드바 | 좌측 18% | 세로 캐러셀 (시스템 선택) |
@@ -21,7 +21,7 @@ EmulationStation theme for RetroPangUI — a modern slate design with dark sideb
 | 메인 좌측 | 18~62% | 큰 시스템 로고 + 부제목 + 설명 + 게임 수 |
 | 메인 우측 | 62~100% | 콘솔 아트 이미지 |
 
-### Gamelist View
+### 게임목록 뷰
 | 영역 | 위치 | 내용 |
 |---|---|---|
 | 사이드바 | 좌측 18% | 시스템 로고 + 짧은 설명 + 긴 설명 + 게임 수 |
@@ -61,7 +61,7 @@ EmulationStation theme for RetroPangUI — a modern slate design with dark sideb
 > 전부 인라인하는 방식으로 굳어짐 - 이 문서가 만들어지기 전까지 `_inc/`를
 > 고치는 실수가 반복되며 실기기에 반영이 안 됐었음(효과 자체가 없는 죽은 파일).
 
-## Assets
+## 에셋
 
 ```
 _assets/
@@ -75,13 +75,13 @@ _assets/
     {system.theme}.png   # 콘솔 아트 이미지 (시스템 뷰용)
 ```
 
-## Supported Systems
+## 지원 시스템
 
 `arcade`, `dreamcast`, `famicom`, `fba`, `gb`, `gba`, `gbc`, `gc`,
 `genesis`, `mame`, `megadrive`, `n64`, `neogeo`, `nes`, `pcengine`,
 `ps2`, `psx`, `saturn`, `sfc`, `snes`
 
-## Local Development & Test
+## 로컬 개발 및 테스트
 
 ```bash
 # 1. 심볼릭 링크 (최초 1회)
@@ -97,19 +97,19 @@ ln -s /home/pangui/scripts/retropangui-slate /home/pangui/share/themes/retropang
 ES 설정 (`/home/pangui/share/system/configs/emulationstation/es_settings.cfg`) 에
 `ThemeSet` 값이 `retropangui-slate`로 지정되어 있어야 합니다.
 
-## Installation (Auto — via RetroPangUI build)
+## 설치 (자동 — RetroPangUI 빌드 경유)
 
-This theme is automatically downloaded and installed as part of the RetroPangUI Buildroot build.
+이 테마는 RetroPangUI Buildroot 빌드 과정에서 자동으로 다운로드·설치됩니다.
 
-## Manual Installation
+## 수동 설치
 
 ```bash
-# On the device:
+# 기기에서:
 cp -r retropangui-slate /retropangui/share/system/emulationstation/themes/
 ```
 
-## Credits
+## 크레딧
 
-- System logos: [nostalgia-pure-lite-ko](https://github.com/LeonardWard/retropangui-c5)
-- Console art: [es-theme-epicnoir](https://github.com/c64-dev/es-theme-epicnoir)
-- Font: [Pretendard](https://github.com/orioncactus/pretendard) by Kil Hyung-jin
+- 시스템 로고: [nostalgia-pure-lite-ko](https://github.com/LeonardWard/retropangui-c5)
+- 콘솔 아트: [es-theme-epicnoir](https://github.com/c64-dev/es-theme-epicnoir)
+- 폰트: [Pretendard](https://github.com/orioncactus/pretendard) by Kil Hyung-jin
