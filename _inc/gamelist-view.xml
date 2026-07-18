@@ -92,7 +92,7 @@
     <!-- 리스트-디테일 구분선 -->
     <image name="list-detail-divider" extra="true">
       <path>../_assets/white.png</path>
-      <color>00000000</color>
+      <color>${colorDivider}</color>
       <size>2 842</size>
       <pos>1087 148</pos>
       <zIndex>7</zIndex>
@@ -178,16 +178,7 @@
     <!-- ── 우측 상세 패널 ── -->
 
     <!-- 게임 이름 (헤더 바로 아래) -->
-    <text name="md_name">
-      <pos>1114 154</pos>
-      <size>778 39</size>
-      <fontSize>24</fontSize>
-      <fontPath>../_assets/fonts/Pretendard-Bold.ttf</fontPath>
-      <color>${colorDark}</color>
-      <zIndex>10</zIndex>
-    </text>
-
-    <!-- 게임 스크린샷 이미지 -->
+    <!-- 게임 스크린샷 이미지 (이름보다 먼저 배치 - 이름은 이미지 아래로) -->
     <image name="md_image">
       <origin>0.5 0.5</origin>
       <pos>1503 367</pos>
@@ -195,10 +186,20 @@
       <zIndex>10</zIndex>
     </image>
 
+    <!-- 게임 이름 (이미지 아래) -->
+    <text name="md_name">
+      <pos>1114 572</pos>
+      <size>778 44</size>
+      <fontSize>26</fontSize>
+      <fontPath>../_assets/fonts/Pretendard-Bold.ttf</fontPath>
+      <color>${colorDark}</color>
+      <zIndex>10</zIndex>
+    </text>
+
     <!-- 메타데이터 레이블 공통 스타일 -->
     <text name="md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_players, md_lbl_releasedate, md_lbl_genre">
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <fontSize>16</fontSize>
+      <fontSize>20</fontSize>
       <color>${colorGray1}</color>
       <forceUppercase>0</forceUppercase>
       <zIndex>10</zIndex>
@@ -206,15 +207,15 @@
 
     <!-- 출시일 레이블 -->
     <text name="md_lbl_releasedate">
-      <pos>1114 623</pos>
-      <size>163 28</size>
+      <pos>1114 630</pos>
+      <size>180 32</size>
     </text>
     <!-- 출시일 -->
     <datetime name="md_releasedate">
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <pos>1283 623</pos>
-      <size>173 28</size>
-      <fontSize>16</fontSize>
+      <pos>1300 630</pos>
+      <size>178 32</size>
+      <fontSize>20</fontSize>
       <color>${colorGray3}</color>
       <format>%Y</format>
       <zIndex>10</zIndex>
@@ -222,83 +223,83 @@
 
     <!-- 개발사 레이블 -->
     <text name="md_lbl_developer">
-      <pos>1114 651</pos>
-      <size>163 28</size>
+      <pos>1114 666</pos>
+      <size>180 32</size>
     </text>
     <!-- 개발사 -->
     <text name="md_developer">
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <pos>1283 651</pos>
-      <size>595 28</size>
-      <fontSize>16</fontSize>
+      <pos>1300 666</pos>
+      <size>578 32</size>
+      <fontSize>20</fontSize>
       <color>${colorGray3}</color>
       <zIndex>10</zIndex>
     </text>
 
     <!-- 퍼블리셔 레이블 -->
     <text name="md_lbl_publisher">
-      <pos>1114 680</pos>
-      <size>163 28</size>
+      <pos>1114 702</pos>
+      <size>180 32</size>
     </text>
     <!-- 퍼블리셔 -->
     <text name="md_publisher">
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <pos>1283 680</pos>
-      <size>595 28</size>
-      <fontSize>16</fontSize>
+      <pos>1300 702</pos>
+      <size>578 32</size>
+      <fontSize>20</fontSize>
       <color>${colorGray3}</color>
       <zIndex>10</zIndex>
     </text>
 
     <!-- 장르 레이블 -->
     <text name="md_lbl_genre">
-      <pos>1114 708</pos>
-      <size>163 28</size>
+      <pos>1114 738</pos>
+      <size>180 32</size>
     </text>
     <!-- 장르 -->
     <text name="md_genre">
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <pos>1283 708</pos>
-      <size>595 28</size>
-      <fontSize>16</fontSize>
+      <pos>1300 738</pos>
+      <size>578 32</size>
+      <fontSize>20</fontSize>
       <color>${colorGray3}</color>
       <zIndex>10</zIndex>
     </text>
 
     <!-- 플레이어 수 레이블 -->
     <text name="md_lbl_players">
-      <pos>1114 738</pos>
-      <size>163 28</size>
+      <pos>1114 774</pos>
+      <size>180 32</size>
     </text>
     <!-- 플레이어 수 -->
     <text name="md_players">
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <pos>1283 738</pos>
-      <size>173 28</size>
-      <fontSize>16</fontSize>
+      <pos>1300 774</pos>
+      <size>178 32</size>
+      <fontSize>20</fontSize>
       <color>${colorGray3}</color>
       <zIndex>10</zIndex>
     </text>
 
     <!-- 평점 레이블 -->
     <text name="md_lbl_rating">
-      <pos>1114 766</pos>
-      <size>163 28</size>
+      <pos>1114 810</pos>
+      <size>180 32</size>
     </text>
     <!-- 평점 -->
     <rating name="md_rating">
       <origin>0 0.5</origin>
-      <pos>1283 772</pos>
-      <size>211 19</size>
+      <pos>1300 817</pos>
+      <size>211 22</size>
       <color>${colorBlue}</color>
       <zIndex>10</zIndex>
     </rating>
 
     <!-- 게임 설명 -->
     <text name="md_description">
-      <pos>1114 800</pos>
-      <size>778 220</size>
-      <fontSize>32</fontSize>
+      <pos>1114 858</pos>
+      <size>778 150</size>
+      <fontSize>20</fontSize>
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>${colorGray2}</color>
       <lineSpacing>1.5</lineSpacing>
