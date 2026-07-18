@@ -327,7 +327,7 @@
     <!-- 도움말 (하단 풋터 세로 중앙) -->
     <helpsystem name="help">
       <pos>499 1026</pos>
-      <fontSize>18</fontSize>
+      <fontSize>26</fontSize>
       <textColor>9CA8B7FF</textColor>
       <iconColor>4A8FE7FF</iconColor>
     </helpsystem>
