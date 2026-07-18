@@ -611,6 +611,7 @@
       <color>${colorGray2}</color>
       <lineSpacing>1.6</lineSpacing>
       <forceUppercase>0</forceUppercase>
+      <scrollable>true</scrollable>
       <zIndex>10</zIndex>
     </text>
 
