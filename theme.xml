@@ -165,6 +165,15 @@
       <zIndex>10</zIndex>
     </text>
 
+    <!-- longdescription 화면 밖으로 숨김 - 아직 overview를 안 넣은 시스템의
+         theme.xml이 "system, basic, detailed, video, grid" 공용 뷰 범위에
+         longdescription 콘텐츠를 계속 채우므로, 이 뷰에서 스타일 없이(기본값
+         전체화면) 렌더링되는 걸 막기 위함. overview 도입 전 임시 조치. -->
+    <text name="longdescription" extra="true">
+      <pos>2880 1620</pos>
+      <size>0 0</size>
+    </text>
+
     <!-- 사이드바 하단: 시스템 정보 (게임 수 등) -->
     <text name="systemInfo">
       <origin>0.5 0.5</origin>
