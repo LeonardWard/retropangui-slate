@@ -28,6 +28,37 @@ EmulationStation theme for RetroPangUI — a modern slate design with dark sideb
 | 게임 목록 | 18~53% | 게임 리스트 (textlist) |
 | 상세 패널 | 53~100% | 스크린샷 + 게임 이름 + 메타데이터 + 설명 |
 
+## 파일 구조 — 뭘 고치려면 어디를 봐야 하나
+
+- **`theme.xml`(루트)**: 모든 화면의 실제 위치·크기·폰트·색상이 전부 여기 인라인으로 들어있음.
+  게임목록류 화면(`<view name="basic, detailed, video, grid">`)과 메인 시스템 화면
+  (`<view name="system">`)이 둘 다 이 파일 안에 있음. **위치/크기/폰트/색상을 고치려면
+  항상 이 파일을 본다.**
+- **`<system>/theme.xml`**(예: `snes/theme.xml`): 그 시스템만의 텍스트 **내용**(이름·
+  짧은 설명·긴 설명·overview)만 담음. `<include>./../theme.xml</include>`로 루트의
+  스타일을 그대로 물려받아 화면에 배치됨. **시스템별 문구 내용만 고치려면 이 파일.**
+- 같은 이름의 요소(예: `longdescription`)가 루트와 시스템 파일 양쪽에 있으면 **병합**됨 -
+  위치/크기(`pos`/`size`/`fontSize` 등)는 루트에서, 내용(`<text>...</text>`)은 시스템
+  파일에서 온다. 시스템 파일에 스타일까지 다시 적을 필요 없음(적어도 무시됨).
+
+빠른 참조:
+
+| 하고 싶은 것 | 수정할 파일 | 찾을 요소 |
+|---|---|---|
+| 게임목록 화면 롬 목록 폰트/줄간격 | `theme.xml` | `<textlist name="gamelist">` |
+| 게임목록 화면 스크린샷 이미지 크기 | `theme.xml` | `<image name="md_image">` |
+| 게임목록 화면 게임 설명(우측 하단) 폰트/크기 | `theme.xml` | `<text name="md_description">` |
+| 게임목록 화면 사이드바 상세설명(overview) 위치/크기 | `theme.xml` (basic/detailed/video/grid 뷰) | `<text name="overview">` |
+| 게임목록 화면 overview **문구 내용** | `<system>/theme.xml` | `<text name="overview">` |
+| 메인 화면(system view) 긴 설명 폰트/크기 | `theme.xml` (system 뷰) | `<text name="longdescription">` |
+| 메인 화면 긴 설명 **문구 내용** | `<system>/theme.xml` | `<text name="longdescription">` |
+| 시스템 로고 옆 이름/짧은 설명 문구 | `<system>/theme.xml` | `<text name="systemfullname">` / `<text name="shortdescription">` |
+
+> **주의**: `_inc/` 폴더는 삭제됨(2026-07-18). 예전엔 여기 파일들을 `<include>`할
+> 구상이었던 것으로 보이나 실제로는 한 번도 연결된 적 없이 루트 `theme.xml`에
+> 전부 인라인하는 방식으로 굳어짐 - 이 문서가 만들어지기 전까지 `_inc/`를
+> 고치는 실수가 반복되며 실기기에 반영이 안 됐었음(효과 자체가 없는 죽은 파일).
+
 ## Assets
 
 ```
