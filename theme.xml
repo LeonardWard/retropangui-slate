@@ -150,12 +150,13 @@
       <zIndex>10</zIndex>
     </text>
 
-    <!-- 사이드바: 시스템 긴 설명 -->
-    <text name="longdescription" extra="true">
+    <!-- 사이드바: 시스템 상세 설명 (게임목록 화면 전용 - system view의 longdescription과 별개,
+         더 길고 상세한 문구를 각 시스템 theme.xml에 직접 작성) -->
+    <text name="overview" extra="true">
       <origin>0.5 0</origin>
       <pos>233 362</pos>
-      <size>413 270</size>
-      <fontSize>17</fontSize>
+      <size>413 460</size>
+      <fontSize>20</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>${colorGray3}</color>
       <lineSpacing>1.5</lineSpacing>
@@ -184,12 +185,12 @@
       <secondaryColor>718096FF</secondaryColor>
       <selectedColor>2D5BE3FF</selectedColor>
       <selectorColor>E8F0FEEE</selectorColor>
-      <selectorHeight>45</selectorHeight>
+      <selectorHeight>54</selectorHeight>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <fontSize>22</fontSize>
+      <fontSize>28</fontSize>
       <alignment>left</alignment>
       <horizontalMargin>16</horizontalMargin>
-      <lineSpacing>1.5</lineSpacing>
+      <lineSpacing>1.75</lineSpacing>
       <forceUppercase>0</forceUppercase>
       <zIndex>10</zIndex>
     </textlist>
@@ -210,7 +211,7 @@
     <image name="md_image">
       <origin>0.5 0.5</origin>
       <pos>1503 367</pos>
-      <maxSize>614 302</maxSize>
+      <maxSize>700 380</maxSize>
       <zIndex>10</zIndex>
     </image>
 
@@ -316,11 +317,12 @@
     <!-- 게임 설명 -->
     <text name="md_description">
       <pos>1114 800</pos>
-      <size>778 173</size>
-      <fontSize>17</fontSize>
+      <size>778 220</size>
+      <fontSize>32</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>${colorGray2}</color>
       <lineSpacing>1.5</lineSpacing>
+      <scrollable>true</scrollable>
       <zIndex>10</zIndex>
     </text>
 
@@ -603,8 +605,8 @@
     <text name="longdescription" extra="true">
       <origin>0 0</origin>
       <pos>532 475</pos>
-      <size>806 124</size>
-      <fontSize>18</fontSize>
+      <size>720 124</size>
+      <fontSize>22</fontSize>
       <fontPath>./_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>${colorGray2}</color>
       <lineSpacing>1.6</lineSpacing>
