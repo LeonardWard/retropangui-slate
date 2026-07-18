@@ -377,94 +377,49 @@
       <pos>532 770</pos>
       <zIndex>10</zIndex>
     </image>
-    <!-- 각 카드 뒤에 살짝 뜬 느낌을 주는 그림자(블러 처리된 PNG, y로 6px 내려서 배치).
-         NanoSVG가 filter/feGaussianBlur를 지원 안 해서 그림자는 SVG가 아니라
-         미리 블러 처리해둔 PNG(rp-card-shadow.png)를 씀. -->
-    <image name="rp-card-1-shadow" extra="true">
-      <path>../_assets/rp-card-shadow.png</path>
-      <origin>0.5 0.5</origin>
-      <pos>632 889</pos>
-      <maxSize>238 205</maxSize>
-      <zIndex>9</zIndex>
-    </image>
     <image name="rp-card-1" extra="true">
-      <path>../_assets/rp-card-noimage.svg</path>
-      <default>../_assets/rp-card-noimage.svg</default>
+      <path>../_assets/rp-card.svg</path>
+      <default>../_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>632 883</pos>
       <maxSize>198 165</maxSize>
       <zIndex>10</zIndex>
     </image>
-    <image name="rp-card-2-shadow" extra="true">
-      <path>../_assets/rp-card-shadow.png</path>
-      <origin>0.5 0.5</origin>
-      <pos>852 889</pos>
-      <maxSize>238 205</maxSize>
-      <zIndex>9</zIndex>
-    </image>
     <image name="rp-card-2" extra="true">
-      <path>../_assets/rp-card-noimage.svg</path>
-      <default>../_assets/rp-card-noimage.svg</default>
+      <path>../_assets/rp-card.svg</path>
+      <default>../_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>852 883</pos>
       <maxSize>198 165</maxSize>
       <zIndex>10</zIndex>
     </image>
-    <image name="rp-card-3-shadow" extra="true">
-      <path>../_assets/rp-card-shadow.png</path>
-      <origin>0.5 0.5</origin>
-      <pos>1072 889</pos>
-      <maxSize>238 205</maxSize>
-      <zIndex>9</zIndex>
-    </image>
     <image name="rp-card-3" extra="true">
-      <path>../_assets/rp-card-noimage.svg</path>
-      <default>../_assets/rp-card-noimage.svg</default>
+      <path>../_assets/rp-card.svg</path>
+      <default>../_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>1072 883</pos>
       <maxSize>198 165</maxSize>
       <zIndex>10</zIndex>
     </image>
-    <image name="rp-card-4-shadow" extra="true">
-      <path>../_assets/rp-card-shadow.png</path>
-      <origin>0.5 0.5</origin>
-      <pos>1292 889</pos>
-      <maxSize>238 205</maxSize>
-      <zIndex>9</zIndex>
-    </image>
     <image name="rp-card-4" extra="true">
-      <path>../_assets/rp-card-noimage.svg</path>
-      <default>../_assets/rp-card-noimage.svg</default>
+      <path>../_assets/rp-card.svg</path>
+      <default>../_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>1292 883</pos>
       <maxSize>198 165</maxSize>
       <zIndex>10</zIndex>
     </image>
-    <image name="rp-card-5-shadow" extra="true">
-      <path>../_assets/rp-card-shadow.png</path>
-      <origin>0.5 0.5</origin>
-      <pos>1512 889</pos>
-      <maxSize>238 205</maxSize>
-      <zIndex>9</zIndex>
-    </image>
     <image name="rp-card-5" extra="true">
-      <path>../_assets/rp-card-noimage.svg</path>
-      <default>../_assets/rp-card-noimage.svg</default>
+      <path>../_assets/rp-card.svg</path>
+      <default>../_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>1512 883</pos>
       <maxSize>198 165</maxSize>
       <zIndex>10</zIndex>
     </image>
-    <image name="rp-card-6-shadow" extra="true">
-      <path>../_assets/rp-card-shadow.png</path>
-      <origin>0.5 0.5</origin>
-      <pos>1732 889</pos>
-      <maxSize>238 205</maxSize>
-      <zIndex>9</zIndex>
-    </image>
     <image name="rp-card-6" extra="true">
-      <path>../_assets/rp-card-noimage.svg</path>
-      <default>../_assets/rp-card-noimage.svg</default>
+      <path>../_assets/rp-card.svg</path>
+      <default>../_assets/rp-card.svg</default>
       <origin>0.5 0.5</origin>
       <pos>1732 883</pos>
       <maxSize>198 165</maxSize>
@@ -484,15 +439,6 @@
       <forceUppercase>0</forceUppercase>
       <scrollable>true</scrollable>
       <zIndex>10</zIndex>
-    </text>
-
-    <!-- overview 화면 밖으로 숨김 - 각 시스템 theme.xml이 "system, basic, detailed,
-         video, grid" 공용 뷰 범위에 overview 콘텐츠를 채우므로, system 뷰에서도
-         스타일 없이(기본값 전체화면) 렌더링되는 걸 막기 위함. overview는
-         게임목록 화면(_inc/gamelist-view.xml) 전용. -->
-    <text name="overview" extra="true">
-      <pos>2880 1620</pos>
-      <size>0 0</size>
     </text>
 
     <!-- 도움말 (하단 풋터 세로 중앙) -->
