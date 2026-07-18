@@ -38,8 +38,10 @@ EmulationStation theme for RetroPangUI — a modern slate design with dark sideb
   짧은 설명·긴 설명·overview)만 담음. `<include>./../theme.xml</include>`로 루트의
   스타일을 그대로 물려받아 화면에 배치됨. **시스템별 문구 내용만 고치려면 이 파일.**
 - 같은 이름의 요소(예: `longdescription`)가 루트와 시스템 파일 양쪽에 있으면 **병합**됨 -
-  위치/크기(`pos`/`size`/`fontSize` 등)는 루트에서, 내용(`<text>...</text>`)은 시스템
-  파일에서 온다. 시스템 파일에 스타일까지 다시 적을 필요 없음(적어도 무시됨).
+  보통은 위치/크기(`pos`/`size`/`fontSize` 등)는 루트에서, 내용(`<text>...</text>`)은
+  시스템 파일에서 온다. `<include>`가 시스템 파일 자신의 내용보다 먼저 파싱되므로,
+  시스템 파일에 스타일 속성을 또 적으면 그게 루트 값을 **덮어쓴다**(무시되는 게
+  아니라 우선함) - 특별한 이유 없이는 시스템 파일에 스타일을 적지 않는다.
 
 빠른 참조:
 
