@@ -122,8 +122,8 @@
     <text name="longdescription" extra="true">
       <origin>0 0</origin>
       <pos>0.23 0.43</pos>
-      <size>0.38 0.16</size>
-      <fontSize>0.018</fontSize>
+      <size>0.34 0.16</size>
+      <fontSize>0.022</fontSize>
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>6B7A8EFF</color>
       <lineSpacing>1.6</lineSpacing>
