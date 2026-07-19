@@ -12,6 +12,7 @@
     </text>
     <text name="longdescription" extra="true">
       <text>마이크로소프트와 ASCII가 주도해 여러 제조사가 만든 8비트 홈 컴퓨터 표준. 일본과 한국에서 특히 인기가 많았습니다.</text>
+      <text lang="en">An 8-bit home computer standard led by Microsoft and ASCII, built by multiple manufacturers. Especially popular in Japan and Korea.</text>
     </text>
   </view>
 </theme>

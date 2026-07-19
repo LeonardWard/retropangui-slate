@@ -12,6 +12,7 @@
     </text>
     <text name="longdescription" extra="true">
       <text>패밀리 컴퓨터 (일본판 NES). 일본 가정용 게임기 시장의 문을 열었습니다.</text>
+      <text lang="en">Family Computer (Japanese NES). Opened the door to Japan's home console market.</text>
     </text>
   </view>
 </theme>

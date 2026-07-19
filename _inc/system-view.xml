@@ -350,6 +350,7 @@
       <color>${colorGray2}</color>
       <zIndex>10</zIndex>
       <text>즐겨찾기</text>
+      <text lang="en">FAVORITES</text>
     </text>
 
     <!-- 10~13. RECENTLY PLAYED 섹션 (2026-07-06: docs/retropangui-slate-design/System View.png

@@ -12,6 +12,7 @@
     </text>
     <text name="longdescription" extra="true">
       <text>닌텐도의 32비트 휴대용 콘솔. 포켓몬과 파이널 판타지 등 다양한 명작을 즐길 수 있습니다.</text>
+      <text lang="en">Nintendo's 32-bit handheld console. Home to classics like Pokémon and Final Fantasy.</text>
     </text>
   </view>
 </theme>

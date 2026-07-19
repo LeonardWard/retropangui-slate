@@ -9,9 +9,11 @@
     </text>
     <text name="shortdescription" extra="true">
       <text>1997 · 오픈소스 · 어드벤처 엔진</text>
+      <text lang="en">1997 · Open Source · Adventure Engine</text>
     </text>
     <text name="longdescription" extra="true">
       <text>루카스아츠 등 90년대 포인트 앤 클릭 어드벤처 게임을 원본 실행 환경 없이도 즐길 수 있게 해주는 오픈소스 게임 엔진입니다.</text>
+      <text lang="en">An open-source game engine that lets you play '90s point-and-click adventure games from LucasArts and others without needing the original hardware or OS.</text>
     </text>
   </view>
 </theme>

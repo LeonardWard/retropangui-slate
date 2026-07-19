@@ -12,6 +12,7 @@
     </text>
     <text name="longdescription" extra="true">
       <text>MAME 에뮬레이터를 통해 수천 가지 아케이드 고전을 경험하세요.</text>
+      <text lang="en">Experience thousands of arcade classics through the MAME emulator.</text>
     </text>
   </view>
 </theme>

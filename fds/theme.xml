@@ -12,6 +12,7 @@
     </text>
     <text name="longdescription" extra="true">
       <text>닌텐도가 패미컴용으로 내놓은 디스크 확장 기기. 저렴한 디스크 매체로 젤다의 전설, 메트로이드 같은 대용량 게임을 즐길 수 있게 했습니다.</text>
+      <text lang="en">Nintendo's disk expansion for the Famicom. Affordable disk media let players enjoy larger games like The Legend of Zelda and Metroid.</text>
     </text>
   </view>
 </theme>

@@ -12,6 +12,7 @@
     </text>
     <text name="longdescription" extra="true">
       <text>게임보이 컬러. 컬러 화면과 함께 포켓몬 2세대를 만나보세요.</text>
+      <text lang="en">Game Boy Color. Meet the second generation of Pokémon in living color.</text>
     </text>
   </view>
 </theme>

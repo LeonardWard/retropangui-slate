@@ -12,6 +12,7 @@
     </text>
     <text name="longdescription" extra="true">
       <text>오락실의 황금기를 함께했던 고전 아케이드 게임들. MAME 에뮬레이터로 원본 그대로 즐길 수 있습니다.</text>
+      <text lang="en">Classic arcade games from the golden age of the arcade, enjoyed exactly as they were through the MAME emulator.</text>
     </text>
   </view>
 </theme>

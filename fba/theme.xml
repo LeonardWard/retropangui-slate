@@ -12,6 +12,7 @@
     </text>
     <text name="longdescription" extra="true">
       <text>파이널번 알파. SNK, 캡콤 등의 명작 아케이드 게임을 지원합니다.</text>
+      <text lang="en">Final Burn Alpha. Supports classic arcade games from SNK, Capcom, and more.</text>
     </text>
   </view>
 </theme>

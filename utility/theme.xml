@@ -19,6 +19,7 @@
     </text>
     <text name="shortdescription" extra="true">
       <text>터미널 · 시스템 도구</text>
+      <text lang="en">Terminal · System Tools</text>
     </text>
   </view>
 </theme>

@@ -12,6 +12,7 @@
     </text>
     <text name="longdescription" extra="true">
       <text>메가드라이브에 장착하는 32비트 확장 장치. 차세대 콘솔 등장을 앞두고 수명을 늘리려 했으나 짧게 단종됐습니다.</text>
+      <text lang="en">A 32-bit add-on for the Mega Drive. Meant to extend its life ahead of next-gen consoles, but discontinued after a short run.</text>
     </text>
   </view>
 </theme>

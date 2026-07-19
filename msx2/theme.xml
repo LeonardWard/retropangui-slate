@@ -12,6 +12,7 @@
     </text>
     <text name="longdescription" extra="true">
       <text>MSX의 후속 규격. 그래픽·사운드 성능이 개선되어 더 화려한 게임을 즐길 수 있었습니다.</text>
+      <text lang="en">The successor to the MSX standard. Improved graphics and sound allowed for more spectacular games.</text>
     </text>
   </view>
 </theme>

@@ -12,9 +12,11 @@
     </text>
     <text name="longdescription" extra="true">
       <text>닌텐도의 슈퍼 패미컴. 향상된 그래픽과 사운드로 RPG와 액션 장르를 새롭게 정의했습니다.</text>
+      <text lang="en">Nintendo's Super Famicom. Redefined the RPG and action genres with enhanced graphics and sound.</text>
     </text>
     <text name="overview" extra="true">
       <text>1990년 일본에서 출시된 닌텐도의 16비트 가정용 게임기. 전작 패미컴 대비 대폭 강화된 그래픽·사운드 성능(모드7 확대·축소·회전 효과, PCM 8채널 사운드 칩)으로 RPG·액션·플랫포머 장르의 표현력을 한 단계 끌어올렸습니다. 크로노 트리거, 슈퍼 마리오 월드, 젤다의 전설: 신들의 트라이포스, 파이널 판타지 6 등 지금까지도 회자되는 명작들이 이 기기에서 탄생했으며, 8비트에서 16비트로 넘어가는 시대의 상징적인 콘솔로 평가받습니다.</text>
+      <text lang="en">Nintendo's 16-bit home console, released in Japan in 1990. Its vastly improved graphics and sound over the Famicom (Mode 7 scaling/rotation effects, an 8-channel PCM sound chip) took the RPG, action, and platformer genres to new heights of expressiveness. Timeless classics like Chrono Trigger, Super Mario World, The Legend of Zelda: A Link to the Past, and Final Fantasy VI were born on this system, cementing its place as the iconic console of the 8-bit-to-16-bit transition.</text>
     </text>
   </view>
 </theme>
