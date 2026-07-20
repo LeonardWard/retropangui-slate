@@ -116,6 +116,6 @@ cp -r retropangui-slate /retropangui/share/system/emulationstation/themes/
 
 ## 크레딧
 
-- 시스템 로고: [nostalgia-pure-lite-ko](https://github.com/LeonardWard/retropangui-c5)
+- 시스템 로고: [nostalgia-pure-lite-ko](https://github.com/LeonardWard/retropangui)
 - 콘솔 아트: [es-theme-epicnoir](https://github.com/c64-dev/es-theme-epicnoir)
 - 폰트: [Pretendard](https://github.com/orioncactus/pretendard) by Kil Hyung-jin
