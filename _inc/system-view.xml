@@ -149,6 +149,30 @@
       <zIndex>10</zIndex>
     </image>
 
+    <!-- 메인 헤더 우측 상단 시계 - 2줄, 우측 정렬 (2026-07-23)
+         1행: 시:분 (큰 글씨), 2행: N월 N일 요일 (작은 글씨) - SystemView.cpp가
+         1초마다 값을 채워줌(ES 확장 요소, clock-time/clock-date 이름으로 조회) -->
+    <text name="clock-time" extra="true">
+      <origin>0 0.5</origin>
+      <pos>1520 55</pos>
+      <size>350 40</size>
+      <alignment>right</alignment>
+      <fontSize>32</fontSize>
+      <fontPath>../_assets/fonts/Pretendard-Bold.ttf</fontPath>
+      <color>${colorDark}</color>
+      <zIndex>10</zIndex>
+    </text>
+    <text name="clock-date" extra="true">
+      <origin>0 0.5</origin>
+      <pos>1520 95</pos>
+      <size>350 22</size>
+      <alignment>right</alignment>
+      <fontSize>16</fontSize>
+      <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
+      <color>${colorGray2}</color>
+      <zIndex>10</zIndex>
+    </text>
+
     <!-- 콘솔 영역 레이어 1: 시스템 스크린샷 (맨 아래) — 주석처리 -->
     <!--
     <image name="system-screenshot" extra="true">
