@@ -169,7 +169,7 @@
       <alignment>right</alignment>
       <fontSize>16</fontSize>
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
-      <color>${colorGray2}</color>
+      <color>${colorDark}</color>
       <zIndex>10</zIndex>
     </text>
 
