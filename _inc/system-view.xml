@@ -291,7 +291,8 @@
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>${colorGray2}</color>
       <forceUppercase>1</forceUppercase>
-      <text>GAMES</text>
+      <text>게임</text>
+      <text lang="en">GAMES</text>
       <zIndex>10</zIndex>
     </text>
 
