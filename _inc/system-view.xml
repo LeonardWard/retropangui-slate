@@ -145,7 +145,7 @@
       <path>../_assets/logo-header.svg</path>
       <origin>0.5 0.5</origin>
       <pos>246 74</pos>
-      <maxSize>442 76</maxSize>
+      <maxSize>442 95</maxSize>
       <zIndex>10</zIndex>
     </image>
 
