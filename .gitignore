@@ -2,7 +2,3 @@ _design/
 *.DS_Store
 Thumbs.db
 TODO.md
-
-# 상업 폰트 - 빌드 시 post-build.sh가 네이버 블로그에서 직접 다운로드
-# (레포에 바이너리로 커밋하지 않기로 결정, 2026-07-24)
-_assets/fonts/PFStardust-ExtraBold.ttf
