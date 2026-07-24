@@ -77,13 +77,13 @@
       <zIndex>7</zIndex>
     </image>
 
-    <!-- 헤더: 시스템 풀네임 -->
+    <!-- 헤더: 시스템 풀네임 - PF스타더스트 ExtraBold(픽셀폰트, 로고와 동일 계열)로 변경 -->
     <text name="systemfullname" extra="true">
       <origin>0 0.5</origin>
       <pos>499 74</pos>
       <size>960 65</size>
       <fontSize>35</fontSize>
-      <fontPath>../_assets/fonts/Pretendard-Bold.ttf</fontPath>
+      <fontPath>../_assets/fonts/PFStardust-ExtraBold.ttf</fontPath>
       <color>${colorDark}</color>
       <forceUppercase>1</forceUppercase>
       <zIndex>10</zIndex>
@@ -98,11 +98,12 @@
       <zIndex>7</zIndex>
     </image>
 
-    <!-- 사이드바 내 시스템 로고 -->
+    <!-- 사이드바 내 시스템 로고 - 좌측 상단 앱 로고와 너무 붙어 보여서 40px 아래로
+         이동(2026-07-24) -->
     <image name="logo">
       <path>../_assets/logos/${system.theme}.svg</path>
       <origin>0.5 0.5</origin>
-      <pos>233 216</pos>
+      <pos>233 256</pos>
       <maxSize>351 97</maxSize>
       <color>${colorLogo}</color>
       <zIndex>15</zIndex>
@@ -111,7 +112,7 @@
     <!-- 사이드바: 시스템 짧은 설명 -->
     <text name="shortdescription" extra="true">
       <origin>0.5 0.5</origin>
-      <pos>233 313</pos>
+      <pos>233 353</pos>
       <size>413 43</size>
       <fontSize>17</fontSize>
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
@@ -125,8 +126,8 @@
          더 길고 상세한 문구를 각 시스템 theme.xml에 직접 작성) -->
     <text name="overview" extra="true">
       <origin>0.5 0</origin>
-      <pos>233 362</pos>
-      <size>413 460</size>
+      <pos>233 402</pos>
+      <size>413 420</size>
       <fontSize>20</fontSize>
       <fontPath>../_assets/fonts/Pretendard-Regular.ttf</fontPath>
       <color>${colorGray3}</color>
