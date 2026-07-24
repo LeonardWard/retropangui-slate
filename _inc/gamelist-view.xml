@@ -44,8 +44,8 @@
     <!-- 앱 로고 (사이드바 상단, 흰색) -->
     <image name="appname-logo" extra="true">
       <path>../_assets/logo-header.svg</path>
-      <origin>0.5 0.5</origin>
-      <pos>246 74</pos>
+      <origin>0.5 0</origin>
+      <pos>246 35</pos>
       <maxSize>442 95</maxSize>
       <zIndex>10</zIndex>
     </image>
